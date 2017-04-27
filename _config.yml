@@ -1,5 +1,5 @@
 ---
-title: The Sweet Kitche
+title: The Sweet Kitchen
 timezone: UTC
 collections:
   posts:
@@ -11,7 +11,7 @@ collections:
 email: play@thesweet.kitchen
 description: Journey on how to bake.
 baseurl: 
-url: 
+url: http://thesweet.kitchen
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
