@@ -12,8 +12,7 @@ email: play@thesweet.kitchen
 description: Journey on how to bake.
 baseurl: 
 url: http://thesweet.kitchen
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: 
 markdown: kramdown
 theme: minima
 gems:
