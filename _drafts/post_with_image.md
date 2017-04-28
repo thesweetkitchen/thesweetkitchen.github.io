@@ -1,23 +1,4 @@
 ---
-<<<<<<< Updated upstream
-title: ''
-date: 2017-04-28 04:17:46.937000000 Z
-categories:
-- 
-- ''
-layout: page
-subheadline: ''
-teaser: ''
-meta_description: ''
-image:
-  header: ''
-  thumb: ''
-  homepage: ''
-  caption: ''
-  url: ''
----
-
-=======
 layout: page
 #
 # Content
@@ -43,7 +24,6 @@ image:
 
 
 
->>>>>>> Stashed changes
  [1]: #
  [2]: #
  [3]: #
