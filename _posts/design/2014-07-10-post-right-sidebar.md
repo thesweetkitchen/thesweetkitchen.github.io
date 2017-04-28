@@ -1,4 +1,5 @@
 ---
+<<<<<<< Updated upstream
 title: Page/Post Right Sidebar
 date: 2014-07-10 00:00:00 Z
 categories:
@@ -17,6 +18,24 @@ image:
   caption_url: http://unsplash.com
 ---
 
+=======
+layout: page
+sidebar: right
+subheadline: Templates
+title:  "Page/Post Right Sidebar"
+teaser: "This is an example of page/post with a sidebar on the right."
+breadcrumb: true
+tags:
+    - post format
+categories:
+    - design
+image:
+    thumb: gallery-example-2-thumb.jpg
+    title: gallery-example-2.jpg
+    caption: Unsplash.com
+    caption_url: http://unsplash.com
+---
+>>>>>>> Stashed changes
 *Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 <!--more-->
 

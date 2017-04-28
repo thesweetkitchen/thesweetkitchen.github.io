@@ -1,4 +1,5 @@
 ---
+<<<<<<< Updated upstream
 title: ''
 date: 2017-04-28 04:17:46.884000000 Z
 categories:
@@ -9,6 +10,20 @@ subheadline: ''
 teaser: ''
 ---
 
+=======
+layout: page-fullwidth
+#
+# Content
+#
+subheadline: ""
+title: ""
+teaser: ""
+categories:
+  - 
+tags:
+  - 
+---
+>>>>>>> Stashed changes
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">

@@ -1,4 +1,5 @@
 ---
+<<<<<<< Updated upstream
 title: ''
 date: 2017-04-28 04:17:46.937000000 Z
 categories:
@@ -16,6 +17,33 @@ image:
   url: ''
 ---
 
+=======
+layout: page
+#
+# Content
+#
+subheadline: ""
+title: ""
+teaser: ""
+meta_description: ""
+categories:
+  - 
+tags:
+  - 
+#
+# Styling
+#
+image:
+  header: ""
+  thumb: ""
+  homepage: ""
+  caption: ""
+  url: ""
+---
+
+
+
+>>>>>>> Stashed changes
  [1]: #
  [2]: #
  [3]: #
