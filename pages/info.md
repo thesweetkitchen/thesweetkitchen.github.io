@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: "/info/"
+permalink: "/about"
 author: Yin
 subheadline: Why another Jekyll Theme?
 teaser: Since years I am programming and designing websites. I love to work with open
