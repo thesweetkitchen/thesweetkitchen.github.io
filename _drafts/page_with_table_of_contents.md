@@ -1,16 +1,14 @@
 ---
-layout: page-fullwidth
-#
-# Content
-#
-subheadline: ""
-title: ""
-teaser: ""
+title: ''
+date: 2017-04-28 08:57:38.114000000 Z
 categories:
-  - 
-tags:
-  - 
+- 
+- ''
+layout: page-fullwidth
+subheadline: ''
+teaser: ''
 ---
+
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
