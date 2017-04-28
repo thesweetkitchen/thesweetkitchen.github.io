@@ -1,28 +1,20 @@
 ---
-layout: page
-#
-# Content
-#
-subheadline: ""
-title: ""
-teaser: ""
-meta_description: ""
+title: ''
+date: 2017-04-28 04:17:46.937000000 Z
 categories:
-  - 
-tags:
-  - 
-#
-# Styling
-#
+- 
+- ''
+layout: page
+subheadline: ''
+teaser: ''
+meta_description: ''
 image:
-  header: ""
-  thumb: ""
-  homepage: ""
-  caption: ""
-  url: ""
+  header: ''
+  thumb: ''
+  homepage: ''
+  caption: ''
+  url: ''
 ---
-
-
 
  [1]: #
  [2]: #
