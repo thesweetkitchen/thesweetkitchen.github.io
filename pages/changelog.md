@@ -1,14 +1,13 @@
 ---
-title: Change is good!
-permalink: "/changelog/"
 layout: page
-meta_title: Feeling Responsive Theme Changelog
-subheadline: Feeling Responsive Theme Changelog
-teaser: History and changelog of Feeling Responsive Theme
+title: "Change is good!"
+meta_title: "Feeling Responsive Theme Changelog"
+subheadline: "Feeling Responsive Theme Changelog"
+teaser: "History and changelog of Feeling Responsive Theme"
 header:
-  image_fullwidth: header_unsplash_9.jpg
+   image_fullwidth: "header_unsplash_9.jpg"
+permalink: "/changelog/"
 ---
-
 2015-11-10 // Version 1.91
 :   I added a nasty hack to highlight the homepage in the topbar navigation. To do it, you have to add `homepage: true` to your homepage. The pages *404* and *search* are now excluded from the sitemap.
 

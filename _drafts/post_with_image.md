@@ -1,20 +1,28 @@
 ---
-title: ''
-date: 2017-04-28 08:57:38.181000000 Z
-categories:
-- 
-- ''
 layout: page
-subheadline: ''
-teaser: ''
-meta_description: ''
+#
+# Content
+#
+subheadline: ""
+title: ""
+teaser: ""
+meta_description: ""
+categories:
+  - 
+tags:
+  - 
+#
+# Styling
+#
 image:
-  header: ''
-  thumb: ''
-  homepage: ''
-  caption: ''
-  url: ''
+  header: ""
+  thumb: ""
+  homepage: ""
+  caption: ""
+  url: ""
 ---
+
+
 
  [1]: #
  [2]: #
