@@ -14,7 +14,7 @@ title: 'The Sweet Kitchen'
 slogan: 'A little sweetness goes a long way'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "A woman's path to learning how to bake her own creations, one ingredient at a time."
+description: "My journey of learning how to bake my own creations, one ingredient at a time."
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a>. Thank you for sharing <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'

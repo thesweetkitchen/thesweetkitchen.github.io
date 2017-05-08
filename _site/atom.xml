@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2017-05-02T17:28:48+08:00</updated>
+	<updated>2017-05-08T19:35:52+08:00</updated>
 
 	<subtitle>A woman's path to learning how to bake her own creations, one ingredient at a time.</subtitle>
 
@@ -35,11 +35,9 @@
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -100,11 +98,9 @@
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -569,11 +565,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -602,11 +596,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -669,11 +661,9 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -740,11 +730,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -812,11 +800,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -875,11 +861,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -951,11 +935,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
@@ -1023,11 +1005,9 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>thesweetkitchen</name>
 					
 					
-					
-						<uri>http://phlow.de/</uri>
 					
 				</author>
 			
