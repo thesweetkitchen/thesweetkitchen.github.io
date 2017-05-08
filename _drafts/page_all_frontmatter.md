@@ -1,59 +1,44 @@
 ---
-layout: page
-#
-# Content
-#
-subheadline: ""
-title: ""
-teaser: ""
+title: ''
+date: 2017-05-08 11:30:40.829000000 Z
 categories:
-  - 
-tags:
-  - 
-#
-# Styling
-#
-header: no
+- 
+- ''
+layout: page
+subheadline: ''
+teaser: ''
 header:
-    image_fullwidth:
-    image:
-    pattern:
-    color:
-    background-color: "#fabb00"   # You must use ""
-    title:
-    caption:
-    caption_url:
+  image_fullwidth: 
+  image: 
+  pattern: 
+  color: 
+  background-color: "#fabb00"
+  title: 
+  caption: 
+  caption_url: 
 image:
-    title:
-    homepage:
-    thumb:
-    caption:
-    caption_url:
-style:                      # Adding additional CSS-styles to <head>
+  title: 
+  homepage: 
+  thumb: 
+  caption: 
+  caption_url: 
+style: 
 iframe: ''
 video:
-    embedURL: ''
-    contentURL: ''
-    thumbnailUrl: ''
-#
-# Metainformation & Customization
-#
+  embedURL: ''
+  contentURL: ''
+  thumbnailUrl: ''
 sidebar: left
 comments: true
 breadcrumb: true
 show_meta: false
-meta_title:             # SEO: Overwrites title in <head> if needed
-meta_description:
-permalink:
-tawkto: true               # Enable tawk.to-Service › More › _config.yml
+meta_title: 
+meta_description: 
+tawkto: true
 callforaction:
   url: 
   text: 
   style: alert
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
 homepage: false
 ---
 
