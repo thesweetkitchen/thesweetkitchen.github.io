@@ -1,11 +1,15 @@
 ---
-layout: page-fullwidth
-title: "Show your beautiful work!"
-subheadline: "Portfolio"
-teaser: "With <em>Feeling Responsive</em> you don't need a special portfolio template. Just check out the great possibilities of the <a href='http://foundation.zurb.com/docs/components/grid.html'>foundation grid</a> and experiment with it."
+title: Show your beautiful work!
+date: 2014-09-10 00:00:00 Z
 categories:
-    - design
+- design
+layout: page-fullwidth
+subheadline: Portfolio
+teaser: With <em>Feeling Responsive</em> you don't need a special portfolio template.
+  Just check out the great possibilities of the <a href='http://foundation.zurb.com/docs/components/grid.html'>foundation
+  grid</a> and experiment with it.
 ---
+
 <!--more-->
 
 <div class="row t60">

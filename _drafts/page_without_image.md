@@ -1,15 +1,12 @@
 ---
-layout: page
-#
-# Content
-#
-subheadline: ""
-title: ""
-teaser: ""
-meta_description:
-permalink:
+title: ''
+date: 2017-05-08 11:30:40.963000000 Z
 categories:
-    - 
-tags:
-    - 
+- 
+- ''
+layout: page
+subheadline: ''
+teaser: ''
+meta_description: 
 ---
+

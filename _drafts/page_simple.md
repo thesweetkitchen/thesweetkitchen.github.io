@@ -1,18 +1,9 @@
 ---
+title: ''
+date: 2017-05-08 11:30:40.862000000 Z
 layout: page
-#
-# Content
-#
-subheadline: ""
-title: ""
-teaser: ""
-#
-# Styling
-#
-header: no
-#
-# Metainformation & Customization
-#
-permalink:
+subheadline: ''
+teaser: ''
+header: false
 ---
 
