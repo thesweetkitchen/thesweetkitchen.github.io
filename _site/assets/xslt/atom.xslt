@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	
 	
 	
-	<link rel="canonical" href="/assets/xslt/atom.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="">
-	<meta property="og:url" content="/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="The Sweet Kitchen">
@@ -54,7 +54,7 @@
 
 	
 
-	<link type="text/plain" rel="author" href="/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
@@ -95,7 +95,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="" class="icon-tree"> The Sweet Kitchen</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> The Sweet Kitchen</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -142,7 +142,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="/search/">Search</a></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
 
             
             
@@ -156,7 +156,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="/contact/">Contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -175,7 +175,7 @@
 
             
             
-              <li><a  href="/">Home</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -190,7 +190,7 @@
 
             
             
-              <li><a  href="/baking_tests/">Baking tests</a></li>
+              <li><a  href="http://localhost:4000/baking_tests/">Baking tests</a></li>
               <li class="divider"></li>
 
             
@@ -205,7 +205,7 @@
 
             
             
-              <li><a  href="/recipes/">Recipes</a></li>
+              <li><a  href="http://localhost:4000/recipes/">Recipes</a></li>
               <li class="divider"></li>
 
             
@@ -220,7 +220,7 @@
 
             
             
-              <li><a  href="/resources/">Resources</a></li>
+              <li><a  href="http://localhost:4000/resources/">Resources</a></li>
               <li class="divider"></li>
 
             
@@ -235,7 +235,7 @@
 
             
             
-              <li><a  href="/about/">About</a></li>
+              <li><a  href="http://localhost:4000/about/">About</a></li>
               <li class="divider"></li>
 
             
@@ -265,8 +265,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="/" title="The Sweet Kitchen – ">
-				<img src="/assets/img/" alt="The Sweet Kitchen – ">
+			<a id="logo" href="http://localhost:4000/" title="The Sweet Kitchen – ">
+				<img src="http://localhost:4000/assets/img/" alt="The Sweet Kitchen – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -344,7 +344,7 @@
 
             <p class="shadow-black">
               
-              <a href="/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -366,22 +366,22 @@
               
                 
                   <li >
-                    <a href=""  title=""></a>
+                    <a href="http://localhost:4000"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
                   </li>
               
                 
                   <li >
-                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
                   </li>
               
                 
                   <li >
-                    <a href="/sitemap"  title="Sitemap">sitemap</a>
+                    <a href="http://localhost:4000/sitemap"  title="Sitemap">sitemap</a>
                   </li>
               
               </ul>
@@ -407,7 +407,7 @@
             
               
                 <li >
-                  <a href=""  title=""></a>
+                  <a href="http://localhost:4000"  title=""></a>
                 </li>
             
               
@@ -465,7 +465,7 @@
 		
 
 
-<script src="/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
