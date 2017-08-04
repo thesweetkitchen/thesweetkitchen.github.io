@@ -34,6 +34,7 @@ Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
 - Font Size Variables
 
 */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,700");
 /* Fonts
 ------------------------------------------------------------------- */
 /* Font Weight
@@ -102,14 +103,14 @@ meta.foundation-data-attribute-namespace {
 
 :root {
   margin: 3em;
-  background: #fdfdfd;
-  color: #111;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  background: #FFFFFF;
+  color: #464646;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 channel > title {
   text-align: center;
-  color: #6590aa;
-  font-family: "Volkhov", Georgia, Times, serif;
+  color: #37e0ff;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 3.6615em;
   font-weight: bolder; }
   channel > title::before {
@@ -130,16 +131,16 @@ channel > link {
 
 item {
   padding: 1em 0;
-  border-bottom: 1px solid #020202; }
+  border-bottom: 1px solid black; }
   item:last-child {
     border-bottom: none; }
   item > title {
-    color: #A1D044;
-    font-family: "Volkhov", Georgia, Times, serif;
+    color: #D7DF21;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-size: 2.441em;
     margin-bottom: 0.5em; }
   item > link {
-    color: #334D5C; }
+    color: #009AB6; }
   item > pubDate {
     color: #A4A4A4;
     font-size: small; }

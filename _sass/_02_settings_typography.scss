@@ -10,7 +10,7 @@ Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
 */
 
 @import "functions"; // Allows the use of rem-calc() or lower-bound() in your settings
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,700');
 
 
 /* Fonts
@@ -22,7 +22,7 @@ $rem-base: $base-font-size;
 $base-line-height: 1.5 !default;
 
 
-$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $font-family-serif: "Volkhov", Georgia, Times, serif;
 $font-family-monospace: "Lucida Console", Monaco, monospace;
 
@@ -30,9 +30,7 @@ $body-font-family: $font-family-sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
 
-$header-font-family: $font-family-serif;
-
-
+$header-font-family: $font-family-sans-serif;
 
 /* Font Weight
 ------------------------------------------------------------------- */

@@ -23,9 +23,10 @@
 	<title>{{ title }}</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url }}/assets/css/styles_feeling_responsive.css">
+		<link rel="stylesheet" href="{{ url }}/assets/fonts/font-awesome/css/font-awesome.min.css">
 
   {% if site.asciidoctor-enabled == true %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+   	<link rel="stylesheet" href="{{ url }}/assets/fonts/font-awesome/css/font-awesome.min.css">
   {% endif %}
 
 	<script src="{{ url }}/assets/js/modernizr.min.js"></script>
@@ -42,6 +43,7 @@
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
 	</noscript>
+
 
 
 	<!-- Search Engine Optimization -->
@@ -75,6 +77,10 @@
 	<meta name="twitter:description" content="{{ description }}">
 	{% if page.image.title %}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
 	{% endif %}
+
+	<!-- Pinterest Business -->
+	 <meta name="p:domain_verify" content="2e94a37fbebf40459812c80d5b8cd6fe"/>
+
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">
 

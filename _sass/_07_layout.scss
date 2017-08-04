@@ -46,8 +46,8 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #navigation {
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+  /*  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);*/
 
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
@@ -63,13 +63,41 @@ body.video cite { color: #fff; }
   display: none;
 }
 
+/* Navigation logo
+------------------------------------------------------------------- */
+#nav_logo {
+    float:left;
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:0;
+    margin-right:0;
+}
 
+@media #{$small-only} {
+    #nav_logo img {
+        width:$topbar-height - rem-calc(10);
+        height:$topbar-height - rem-calc(10);
+        margin: 0 10px 0 0;
+
+    }
+}
+
+@media #{$medium-only} {
+    #nav_logo img {
+        width:$topbar-height - rem-calc(10);
+        height:$topbar-height - rem-calc(10);
+        margin: 0 10px 0 0;
+    }
+}
 
 /* Masthead
 ------------------------------------------------------------------- */
 
 #masthead {
     background-color: $primary-color;
+}
+#masthead-hp {
+    height: 500px;
 }
 #masthead-no-image-header {
     background-color: $primary-color;
@@ -273,7 +301,7 @@ body.video cite { color: #fff; }
 
 #footer {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background: $footer-bg;
     color: $footer-color;
     }
@@ -284,7 +312,7 @@ body.video cite { color: #fff; }
     #footer h4,
     #footer h5 {
         letter-spacing: 1px;
-        color: #fff;
+        color: $ci-5;
         text-transform: uppercase;
     }
 
@@ -294,21 +322,30 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #subfooter {
-    background: $subfooter-bg;
     color: $subfooter-color;
     padding-top: 30px;
+    text-align: center;
+
+    a{
+      color: $grey-8;
+    }
 }
 
-#subfooter-left ul.inline-list {
-    float: left;
-}
 
-.credits a {
+#subfooter-left a {
+     color: $grey-8;
+     font-weight:300;
+    }
+
+.credits{
+  font-size: rem-calc(13);
+
+    a {
     color: $subfooter-link-color;
     border: 0;
-    text-transform: uppercase;
+    }
     &:hover {
-        color: #fff;
+        color: $grey-10;
   }
 }
 
@@ -333,7 +370,6 @@ body.video cite { color: #fff; }
     }
   }
 }
-
 
 
 /* CSS-Classes to add margin at top or bottom
@@ -361,3 +397,20 @@ body.video cite { color: #fff; }
 .pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
+
+
+
+/* Mailchimp newsletter sign up form
+---------------------------------------------------------------------*/
+
+#mc_embed_signup {
+
+background-color: $footer-bg;
+clear:left;
+padding:0;
+
+  & input.button {
+    background-color: $ci-1;
+  }
+
+}

@@ -3,8 +3,8 @@ title: Contact
 permalink: "/contact/"
 layout: page
 meta_title: Contact us
-teaser: Hello! Nice to meet you!
 ---
+Hello! Feel free to send me any questions, suggestions, or just to say hi. Love hearing from you!
 
 <form action="https://getsimpleform.com/messages?form_api_token=f32825134b2ff759f3aef85d548cf4e6" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -19,5 +19,5 @@ teaser: Hello! Nice to meet you!
   Message
   <textarea name="message" required></textarea>
 
-  <input type='submit' value='Send message' />
+  <input type='submit' value='Send message' class='button tiny radius' />
 </form>

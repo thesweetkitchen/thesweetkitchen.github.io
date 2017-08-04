@@ -15,6 +15,14 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
+{% if page.header.hp_image_fullwidth %}
+<!--
+<script>
+    $("#masthead-hp").backstretch(["{{ site.urlimg }}{{ page.header.hp_image_fullwidth }}", "http://localhost:4000/gallery-example-1.jpg"], {fade: 700});
+    $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.hp_image_fullwidth }}", {fade: 700});
+</script>
+-->
+{% endif %}
 
 
 {% if site.google_analytics_tracking_id %}
@@ -52,4 +60,3 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 {% endif %}
-

@@ -10,11 +10,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000//assets/css/styles_feeling_responsive.css">
+		<link rel="stylesheet" href="http://localhost:4000//assets/fonts/font-awesome/css/font-awesome.min.css">
 
   
 
-	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000//assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -30,6 +31,7 @@
 	</noscript>
 
 
+
 	<!-- Search Engine Optimization -->
 	<meta name="description" content="">
 	
@@ -38,51 +40,56 @@
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
+	<link rel="canonical" href="http://localhost:4000//assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000//assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="The Sweet Kitchen">
+	<meta property="og:site_name" content="THE SWEET KITCHEN">
 	
 	
 
 
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+	<!-- Pinterest Business -->
+	 <meta name="p:domain_verify" content="2e94a37fbebf40459812c80d5b8cd6fe"/>
+
+
+	<link type="text/plain" rel="author" href="http://localhost:4000//humans.txt">
 
 	
 
 	
 
-	
+	<link rel="icon" sizes="32x32" href="http://localhost:4000//assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="http://localhost:4000//assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000//assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000//assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000//assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000//assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000//assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000//assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000//assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000//assets/img/apple-touch-icon-precomposed.png">	
 
-	
+	<meta name="msapplication-TileImage" content="http://localhost:4000//assets/img/msapplication_tileimage.png">
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
+	<meta name="msapplication-TileColor" content="#fabb00">
 
 
 	
@@ -93,89 +100,39 @@
 		<xsl:text disable-output-escaping="yes"><![CDATA[
 		<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
+
+
+
+
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> The Sweet Kitchen</a></h1>
-    </li>
+        <a id="nav_logo" href="http://localhost:4000/"><img src="http://localhost:4000/assets/img/logo.png" /></a>
+      <h1><a href="http://localhost:4000/">THE SWEET KITCHEN</a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
     </ul>
     <section class="top-bar-section">
 
-      <ul class="right">
-        
 
-              
 
-          
-          
-        
 
-              
 
-          
-          
-        
 
-              
 
-          
-          
-        
 
-              
-
-          
-          
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/search/">Search</a></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
-
-            
-            
-          
-        
-        
-      </ul>
 
       <ul class="left">
+
         
 
               
 
           
           
-
             
             
-              <li><a  href="http://localhost:4000/">Home</a></li>
+              <li><a  href="http://localhost:4000//">home</a></li>
               <li class="divider"></li>
 
             
@@ -187,10 +144,9 @@
 
           
           
-
             
             
-              <li><a  href="http://localhost:4000/baking_tests/">Baking tests</a></li>
+              <li><a  href="http://localhost:4000//experiments/">experiments</a></li>
               <li class="divider"></li>
 
             
@@ -202,10 +158,9 @@
 
           
           
-
             
             
-              <li><a  href="http://localhost:4000/recipes/">Recipes</a></li>
+              <li><a  href="http://localhost:4000//resources/">resources</a></li>
               <li class="divider"></li>
 
             
@@ -217,10 +172,9 @@
 
           
           
-
             
             
-              <li><a  href="http://localhost:4000/resources/">Resources</a></li>
+              <li><a  href="http://localhost:4000//about/">about</a></li>
               <li class="divider"></li>
 
             
@@ -232,20 +186,13 @@
 
           
           
-
             
             
-              <li><a  href="http://localhost:4000/about/">About</a></li>
+              <li><a  href="http://localhost:4000//contact/">contact</a></li>
               <li class="divider"></li>
 
             
             
-          
-        
-
-              
-
-          
           
         
 
@@ -256,6 +203,60 @@
         
         
       </ul>
+
+
+      
+            <ul class="right">
+              
+
+                    
+
+                
+                
+              
+
+                    
+
+                
+                
+              
+
+                    
+
+                
+                
+              
+
+                    
+
+                
+                
+              
+
+                    
+
+                
+                
+              
+
+                    
+
+                
+                
+                  
+                  
+                    <li class="divider"></li>
+                    <li><a  href="http://localhost:4000//search/"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
+
+                  
+                  
+                
+              
+              
+            </ul>
+
+
+
     </section>
   </nav>
 </div><!-- /#navigation -->
@@ -265,12 +266,13 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title="The Sweet Kitchen – ">
-				<img src="http://localhost:4000/assets/img/" alt="The Sweet Kitchen – ">
+			<a id="logo" href="http://localhost:4000//" title="THE SWEET KITCHEN – ">
+			 <img src="http://localhost:4000//assets/img/logo.png" alt="THE SWEET KITCHEN – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
+
 
 
 
@@ -339,20 +341,63 @@
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
-          <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">About This Site</h5>
+          <div class="large-5 columns">
+            <h5>Newsletter</h5>
 
-            <p class="shadow-black">
-              
-              <a href="http://localhost:4000/info/">More ›</a>
+            <p>
+              <!--
+              <a href="http://localhost:4000//info/">More ›</a>-->
+
+              <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+              <div id="mc_embed_signup">
+              <form action="//kitchen.us16.list-manage.com/subscribe/post?u=14807e9a00d9bba2f85e9e57f&amp;id=e7b2ac2b73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding:0;">
+                  <div id="mc_embed_signup_scroll">
+
+              	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14807e9a00d9bba2f85e9e57f_e7b2ac2b73" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+              </form>
+              </div>
+
+              <!--End mc_embed_signup-->
+
+
             </p>
           </div><!-- /.large-6.columns -->
 
 
+          <div id="subfooter-right" class="small-12 medium-6 columns">
+              <h5>Connect with me!</h5>
+              <p>
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://www.pinterest.com/cookinthesweetkitchen/" target="_blank" class="icon-pinterest" title="Pinterest: cookinthesweetkitchen"></a></li>
+            
+              <li><a href="https://www.instagram.com/thesweet.kitchen/" target="_blank" class="icon-instagram" title="Instagram: thesweet.kitchen"></a></li>
+            
+              <li><a href="https://twitter.com/sw33tkitchen" target="_blank" class="icon-twitter" title="Twitter: @sw33tkitchen"></a></li>
+            
+              <li><a href="https://thesweet.kitchen/feed.xml" target="_blank" class="icon-rss" title="Subscribe to our RSS feed"></a></li>
+            
+            </ul>
+          </p>
+          </div>
+
+
+<!--remove sitemap column
+
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
               
-                <h5 class="shadow-black">Services</h5>
+                <h5>Sitemap</h5>
+              
+            
+              
+            
               
             
               
@@ -362,36 +407,47 @@
               
             
 
-              <ul class="no-bullet shadow-black">
+              <ul class="no-bullet">
               
                 
                   <li >
-                    <a href="http://localhost:4000"  title=""></a>
+                    <a href="http://localhost:4000/"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000//"  title="Home">Home</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="http://localhost:4000//experiments/"  title="Experiments">Baking experiments</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/sitemap"  title="Sitemap">sitemap</a>
+                    <a href="http://localhost:4000//resources/"  title="Resources">Resources</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000//about/"  title="About">About</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000//contact/"  title="Contact">Contact</a>
                   </li>
               
               </ul>
-          </div><!-- /.large-4.columns -->
+          </div>
+        --><!-- /.large-4.columns -->
 
-
+<!--remove network column
           <div class="small-6 medium-3 large-3 columns">
             
               
-                <h5 class="shadow-black">Dankeschön</h5>
+                <h5>Dankeschön</h5>
               
             
               
@@ -403,11 +459,11 @@
               
             
 
-            <ul class="no-bullet shadow-black">
+            <ul class="no-bullet">
             
               
                 <li >
-                  <a href="http://localhost:4000"  title=""></a>
+                  <a href="http://localhost:4000/"  title=""></a>
                 </li>
             
               
@@ -431,41 +487,57 @@
                 </li>
             
             </ul>
-          </div><!-- /.large-3.columns -->
+          </div>--><!-- /.large-3.columns -->
+
         </div><!-- /.row -->
+
+        <div class="row">
+          <!--
+          <div id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created with &hearts; based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> by <a href="http://phlow.de/">Phlow</a> .</p>
+          </div>
+        -->
+
+          <div id="subfooter" class="small-24 medium-12 columns credits" >
+            © 2017 Copyright The Sweet Kitchen. All rights reserved. Design based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.
+          </div>
+        </div>
+
+
+
+        </div>
 
       </div><!-- /#footer -->
 
-
+<!--
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            
+            <p>Created with &hearts; based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> by <a href="http://phlow.de/">Phlow</a> .</p>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             
-              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
+              <li><a href="https://www.pinterest.com/cookinthesweetkitchen/" target="_blank" class="icon-pinterest" title="Pinterest: cookinthesweetkitchen"></a></li>
             
-              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
+              <li><a href="https://www.instagram.com/thesweet.kitchen/" target="_blank" class="icon-instagram" title="Instagram: thesweet.kitchen"></a></li>
             
-              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
+              <li><a href="https://twitter.com/sw33tkitchen" target="_blank" class="icon-twitter" title="Twitter: @sw33tkitchen"></a></li>
             
-              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
-            
-              <li><a href="https://plus.google.com/u/0/+Phlow" target="_blank" class="icon-googleplus" title="YouTube Google+"></a></li>
+              <li><a href="https://thesweet.kitchen/feed.xml" target="_blank" class="icon-rss" title="Subscribe to our RSS feed"></a></li>
             
             </ul>
           </section>
         </nav>
-      </div><!-- /#subfooter -->
+      </div>--><!-- /#subfooter -->
+
     </footer>
 
 		
 
 
-<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000//assets/js/javascript.min.js"></script>
 
 
 

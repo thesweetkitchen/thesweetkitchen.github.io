@@ -1,27 +1,32 @@
-- name: GitHub
-  url: http://github.com/phlow
-  class: icon-github
-  title: Code und mehr...
+- name: Pinterest
+  url: https://www.pinterest.com/cookinthesweetkitchen/
+  class: icon-pinterest
+  title: "Pinterest: cookinthesweetkitchen"
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+# - name: Facebook
+#  url: http://www.facebook.com/
+#  class: icon-facebook
+#  title: "Facebook"
+
+- name: Instagram
+  url: https://www.instagram.com/thesweet.kitchen/
+  class: icon-instagram
+  title: "Instagram: thesweet.kitchen"
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: https://twitter.com/sw33tkitchen
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "Twitter: @sw33tkitchen"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: RSS
+  url: https://thesweet.kitchen/feed.xml
+  class: icon-rss
+  title: "Subscribe to our RSS feed"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
+#- name: Bloglovin'
+#  url: https://www.bloglovin.com/blog/19007641/?claim=p22wtym329d
+#  class: icon-bloglovin #need bloglovin icon
+#  title: "Follow my blog with Bloglovin"
 
 # - name: Facebook
 #   url: http://www.facebook.com/

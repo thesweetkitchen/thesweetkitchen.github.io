@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+			 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -71,6 +71,32 @@
 	{{ page.header.caption }}
 </div>
 {% endif %}
+
+
+
+
+
+<!--homepage header-->
+{% elsif page.header.hp_image_fullwidth %}
+
+<div id="masthead-hp" style="background: url('{{ site.url }}{{ site.baseurl }}{{ page.header.hp_image_fullwidth }}')">
+</div><!-- /#masthead -->
+
+
+{% if page.breadcrumb == true %}
+{% include _breadcrumb.html %}
+{% endif %}
+
+{% if page.header.caption_url && page.header.caption %}
+<div class="masthead-caption">
+	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+</div>
+{% elsif page.header.caption %}
+<div class="masthead-caption">
+	{{ page.header.caption }}
+</div>
+{% endif %}
+
 
 
 

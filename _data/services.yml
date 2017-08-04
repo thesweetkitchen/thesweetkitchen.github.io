@@ -1,13 +1,21 @@
-- menu_name: "Services"
+- menu_name: "Sitemap"
+
+- name: "Home"
+  url: "/"
+  title: "Home"
+
+- name: "Baking experiments"
+  url: "/experiments/"
+  title: "Experiments"
+
+- name: "Resources"
+  url: "/resources/"
+  title: "Resources"
+
+- name: "About"
+  url: "/about/"
+  title: "About"
 
 - name: "Contact"
   url: "/contact/"
   title: "Contact"
-
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
-
-- name: "sitemap"
-  url: "/sitemap"
-  title: "Sitemap"

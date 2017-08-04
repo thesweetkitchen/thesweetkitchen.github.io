@@ -1,27 +1,27 @@
-- title: Home
+- title: home
   url: "/"
   side: left
 
-- title: "Baking tests"
-  url: "/baking_tests/"
+- title: "experiments"
+  url: "/experiments/"
   side: left
 
-- title: "Recipes"
-  url: "/recipes/"
-  side: left
+#- title: "Recipes"
+#  url: "/recipes/"
+#  side: left
 
-- title: Resources
+- title: resources
   url: "/resources/"
   side: left
 
-- title: "About"
+- title: about
   url: "/about/"
   side: left
 
-- title: "Search"
-  url: "/search/"
-  side: right
-
-- title: "Contact"
+- title: contact
   url: "/contact/"
+  side: left
+
+- title: "search"
+  url: "/search/"
   side: right

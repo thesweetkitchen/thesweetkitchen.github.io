@@ -8,24 +8,57 @@
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
-          <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
+          <div class="large-5 columns">
+            <h5>{{ site.data.language.newsletter }}</h5>
 
-            <p class="shadow-black">
-              {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+            <p>
+              <!--{{ site.description }}
+              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>-->
+
+              <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+              <div id="mc_embed_signup">
+              <form action="//kitchen.us16.list-manage.com/subscribe/post?u=14807e9a00d9bba2f85e9e57f&amp;id=e7b2ac2b73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding:0;">
+                  <div id="mc_embed_signup_scroll">
+
+              	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14807e9a00d9bba2f85e9e57f_e7b2ac2b73" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+              </form>
+              </div>
+
+              <!--End mc_embed_signup-->
+
+
             </p>
           </div><!-- /.large-6.columns -->
 
 
+          <div id="subfooter-right" class="small-12 medium-6 columns">
+              <h5>Connect with me!</h5>
+              <p>
+            <ul class="inline-list social-icons">
+            {% for social_item in site.data.socialmedia %}
+              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+            {% endfor %}
+            </ul>
+          </p>
+          </div>
+
+
+<!--remove sitemap column
+
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             {% for service_item in site.data.services %}
               {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
+                <h5>{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
 
-              <ul class="no-bullet shadow-black">
+              <ul class="no-bullet">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
@@ -33,17 +66,18 @@
                   </li>
               {% endfor %}
               </ul>
-          </div><!-- /.large-4.columns -->
+          </div>
+        --><!-- /.large-4.columns -->
 
-
+<!--remove network column
           <div class="small-6 medium-3 large-3 columns">
             {% for network_item in site.data.network %}
               {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
+                <h5>{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
 
-            <ul class="no-bullet shadow-black">
+            <ul class="no-bullet">
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
                 <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
@@ -51,12 +85,29 @@
                 </li>
             {% endfor %}
             </ul>
-          </div><!-- /.large-3.columns -->
+          </div>--><!-- /.large-3.columns -->
+
         </div><!-- /.row -->
+
+        <div class="row">
+          <!--
+          <div id="subfooter-left" class="small-12 medium-6 columns credits">
+            {{ site.credits }}
+          </div>
+        -->
+
+          <div id="subfooter" class="small-24 medium-12 columns credits" >
+            © 2017 Copyright The Sweet Kitchen. All rights reserved. Design based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.
+          </div>
+        </div>
+
+
+
+        </div>
 
       </div><!-- /#footer -->
 
-
+<!--
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
@@ -71,5 +122,6 @@
             </ul>
           </section>
         </nav>
-      </div><!-- /#subfooter -->
+      </div>--><!-- /#subfooter -->
+
     </footer>
