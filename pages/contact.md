@@ -8,7 +8,7 @@ Hello! Feel free to send me any questions, suggestions, or just to say hi. Love 
 
 <form action="https://getsimpleform.com/messages?form_api_token=f32825134b2ff759f3aef85d548cf4e6" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://thesweet.kitchen/thank-you' />
+  <input type='hidden' name='redirect_to' value='https://thesweet.kitchen/thank-you' />
   <!-- all your input fields here.... -->
   Name
   <input type='text' name='name' required />

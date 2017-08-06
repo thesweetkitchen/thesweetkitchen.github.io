@@ -387,108 +387,6 @@
           </p>
           </div>
 
-
-<!--remove sitemap column
-
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
-            
-              
-                <h5>Sitemap</h5>
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-
-              <ul class="no-bullet">
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/"  title=""></a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000//"  title="Home">Home</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000//experiments/"  title="Experiments">Baking experiments</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000//resources/"  title="Resources">Resources</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000//about/"  title="About">About</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000//contact/"  title="Contact">Contact</a>
-                  </li>
-              
-              </ul>
-          </div>
-        --><!-- /.large-4.columns -->
-
-<!--remove network column
-          <div class="small-6 medium-3 large-3 columns">
-            
-              
-                <h5>Dankeschön</h5>
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-
-            <ul class="no-bullet">
-            
-              
-                <li >
-                  <a href="http://localhost:4000/"  title=""></a>
-                </li>
-            
-              
-                <li class="network-entypo" >
-                  <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
-                </li>
-            
-              
-                <li class="services-newsletter" >
-                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
-                </li>
-            
-              
-                <li class="rss-link" >
-                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
-                </li>
-            
-              
-                <li class="sitemap-link" >
-                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
-                </li>
-            
-            </ul>
-          </div>--><!-- /.large-3.columns -->
-
         </div><!-- /.row -->
 
         <div class="row">
@@ -499,7 +397,7 @@
         -->
 
           <div id="subfooter" class="small-24 medium-12 columns credits" >
-            © 2017 Copyright The Sweet Kitchen. All rights reserved. Design based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.
+            © 2017 Copyright The Sweet Kitchen. All rights reserved. Template based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.
           </div>
         </div>
 
