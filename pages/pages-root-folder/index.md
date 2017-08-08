@@ -1,8 +1,7 @@
 ---
 permalink: "/index.html"
 layout: frontpage
-header:
-  hp_image_fullwidth: /assets/img/VCG41485251839.jpg
+header: no
 widget1:
   title: Blog & Portfolio
   url: http://phlow.github.io/feeling-responsive/blog/
@@ -28,10 +27,13 @@ widget3:
     for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a>
     with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  url: https://thesweet.kitchen/experiments
+  text: See all articles ›
   style: alert
 homepage: true
+image_sliders:
+  - homepage_slider
+image_sliders_load_all: true
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
@@ -40,3 +42,5 @@ homepage: true
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+{% include slider_scripts.html %}

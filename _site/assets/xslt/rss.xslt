@@ -26,6 +26,8 @@
 		});
 	</script>
 
+	<script src="/assets/js/slider/ideal-image-slider.js"></script>
+
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
 	</noscript>
@@ -43,7 +45,7 @@
 	<link rel="canonical" href="http://localhost:4000//assets/xslt/rss.xslt">
 
 
-	<!-- Facebook Open Graph -->
+	<!-- Facebook Open Graph
 	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="">
 	<meta property="og:url" content="http://localhost:4000//assets/xslt/rss.xslt">
@@ -52,7 +54,7 @@
 	<meta property="og:site_name" content="THE SWEET KITCHEN">
 	
 	
-
+-->
 
 	
 
@@ -94,6 +96,9 @@
 
 	
 
+	<link rel="stylesheet" href="http://localhost:4000//assets/css/ideal-image-slider.css">
+	<link rel="stylesheet" href="http://localhost:4000//assets/css/themes/default/default.css">
+
 		]]></xsl:text>
 	</head>
 	<body id="top-of-page">
@@ -101,13 +106,10 @@
 		<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
 
-
-
-
     <ul class="title-area">
       <li class="name">
-        <a id="nav_logo" href="http://localhost:4000/"><img src="http://localhost:4000/assets/img/logo.png" /></a>
-      <h1><a href="http://localhost:4000/">THE SWEET KITCHEN</a></h1>
+        <a id="nav-logo" href="http://localhost:4000/"><img src="http://localhost:4000/assets/img/logo.png" /></a>
+      <h1 id="site-title"><a href="http://localhost:4000/">THE SWEET KITCHEN</a></h1>
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -392,7 +394,7 @@
         <div class="row">
           <!--
           <div id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p>Created with &hearts; based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> by <a href="http://phlow.de/">Phlow</a> .</p>
+            
           </div>
         -->
 
@@ -411,7 +413,7 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p>Created with &hearts; based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> by <a href="http://phlow.de/">Phlow</a> .</p>
+            
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
@@ -436,12 +438,6 @@
 
 
 <script src="http://localhost:4000//assets/js/javascript.min.js"></script>
-
-
-
-
-
-
 
 
 

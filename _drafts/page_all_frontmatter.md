@@ -9,7 +9,6 @@ subheadline: ''
 teaser: ''
 header:
   image_fullwidth:
-  hp_image_fullwidth:
   image:
   pattern:
   color:

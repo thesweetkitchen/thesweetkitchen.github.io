@@ -65,30 +65,58 @@ body.video cite { color: #fff; }
 
 /* Navigation logo
 ------------------------------------------------------------------- */
-#nav_logo {
+#nav-logo {
     float:left;
     padding-left:5px;
     padding-top:5px;
     padding-right:0;
     margin-right:0;
+
+}
+
+#nav-logo img{
+  position:absolute;
+  top:10;
+  left:5;
+  z-index:1000;
+}
+
+#site-title{
+  position:absolute;
+  left:80px;
 }
 
 @media #{$small-only} {
-    #nav_logo img {
+    #nav-logo img {
         width:$topbar-height - rem-calc(10);
         height:$topbar-height - rem-calc(10);
-        margin: 0 10px 0 0;
+        //margin: 0 10px 0 0;
+        top:10;
+        left:5;
 
+    }
+
+    #site-title{
+      position:absolute;
+      left:40px;
     }
 }
 
 @media #{$medium-only} {
-    #nav_logo img {
+    #nav-logo img {
         width:$topbar-height - rem-calc(10);
         height:$topbar-height - rem-calc(10);
-        margin: 0 10px 0 0;
-    }
+        //margin: 0 10px 0 0;
+        top:10;
+        left:5;
+      }
+
+      #site-title{
+        position:absolute;
+        left:40px;
+      }
 }
+
 
 /* Masthead
 ------------------------------------------------------------------- */

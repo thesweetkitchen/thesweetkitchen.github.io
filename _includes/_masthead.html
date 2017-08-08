@@ -73,35 +73,6 @@
 {% endif %}
 
 
-
-
-
-<!--homepage header-->
-{% elsif page.header.hp_image_fullwidth %}
-
-<div id="masthead-hp" style="background: url('{{ site.url }}{{ site.baseurl }}{{ page.header.hp_image_fullwidth }}')">
-</div><!-- /#masthead -->
-
-
-{% if page.breadcrumb == true %}
-{% include _breadcrumb.html %}
-{% endif %}
-
-{% if page.header.caption_url && page.header.caption %}
-<div class="masthead-caption">
-	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
-</div>
-{% elsif page.header.caption %}
-<div class="masthead-caption">
-	{{ page.header.caption }}
-</div>
-{% endif %}
-
-
-
-
-
-
 {% elsif page.header.pattern %}
 
 <div id="masthead-with-pattern" style="background: url('{{ site.urlimg }}/{{ page.header.pattern }}')">

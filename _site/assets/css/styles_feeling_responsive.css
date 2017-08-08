@@ -5625,23 +5625,43 @@ body.video cite {
 
 /* Navigation logo
 ------------------------------------------------------------------- */
-#nav_logo {
+#nav-logo {
   float: left;
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 0;
   margin-right: 0; }
 
+#nav-logo img {
+  position: absolute;
+  top: 10;
+  left: 5;
+  z-index: 1000; }
+
+#site-title {
+  position: absolute;
+  left: 80px; }
+
 @media only screen and (max-width: 40em) {
-  #nav_logo img {
+  #nav-logo img {
     width: 2.5rem;
     height: 2.5rem;
-    margin: 0 10px 0 0; } }
+    top: 10;
+    left: 5; }
+
+  #site-title {
+    position: absolute;
+    left: 40px; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #nav_logo img {
+  #nav-logo img {
     width: 2.5rem;
     height: 2.5rem;
-    margin: 0 10px 0 0; } }
+    top: 10;
+    left: 5; }
+
+  #site-title {
+    position: absolute;
+    left: 40px; } }
 /* Masthead
 ------------------------------------------------------------------- */
 #masthead {

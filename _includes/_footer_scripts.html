@@ -7,23 +7,13 @@ $('audio,video').mediaelementplayer();
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
 
-
-{% if page.header.image_fullwidth %}
+{% if page.header.image_fullwidth %}<!--
 <script>
     $("#masthead").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
     $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
 </script>
-{% endif %}
-
-{% if page.header.hp_image_fullwidth %}
-<!--
-<script>
-    $("#masthead-hp").backstretch(["{{ site.urlimg }}{{ page.header.hp_image_fullwidth }}", "http://localhost:4000/gallery-example-1.jpg"], {fade: 700});
-    $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.hp_image_fullwidth }}", {fade: 700});
-</script>
 -->
 {% endif %}
-
 
 {% if site.google_analytics_tracking_id %}
 <script>
@@ -38,8 +28,6 @@ $('audio,video').mediaelementplayer();
 
 </script>
 {% endif %}
-
-
 
 {% comment %}
 #  Start of Tawk.to Script
