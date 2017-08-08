@@ -1,12 +1,13 @@
 # example slider
 - selector: homepage_slider
+  bullets: true
   captions: true
   images:
     - src: /assets/img/hp_slider/hero-1.jpg
-      alt: image one
+      alt: text 1 text 1
     - src: /assets/img/hp_slider/hero-2.jpg
       alt: image two
     - src: /assets/img/hp_slider/hero-3.jpg
-      alt: image three
+      alt: text 2 text 2
   settings:
     height: 650
