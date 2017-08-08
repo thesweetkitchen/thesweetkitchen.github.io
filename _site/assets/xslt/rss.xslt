@@ -134,7 +134,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//">home</a></li>
+              <li><a  href="http://localhost:4000/">home</a></li>
               <li class="divider"></li>
 
             
@@ -148,7 +148,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//experiments/">experiments</a></li>
+              <li><a  href="http://localhost:4000/experiments/">experiments</a></li>
               <li class="divider"></li>
 
             
@@ -162,7 +162,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//resources/">resources</a></li>
+              <li><a  href="http://localhost:4000/resources/">resources</a></li>
               <li class="divider"></li>
 
             
@@ -176,7 +176,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//about/">about</a></li>
+              <li><a  href="http://localhost:4000/about/">about</a></li>
               <li class="divider"></li>
 
             
@@ -190,7 +190,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//contact/">contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">contact</a></li>
               <li class="divider"></li>
 
             
@@ -248,7 +248,7 @@
                   
                   
                     <li class="divider"></li>
-                    <li><a  href="http://localhost:4000//search/"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
+                    <li><a  href="http://localhost:4000/search/"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
 
                   
                   
