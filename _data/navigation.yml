@@ -1,9 +1,9 @@
 - title: home
-  url: ""
+  url: "/"
   side: left
 
 - title: "baking tests"
-  url: "baking-tests/"
+  url: "/baking-tests/"
   side: left
 
 #- title: "Recipes"
@@ -11,17 +11,17 @@
 #  side: left
 
 - title: resources
-  url: "resources/"
+  url: "/resources/"
   side: left
 
 - title: about
-  url: "about/"
+  url: "/about/"
   side: left
 
 - title: contact
-  url: "contact/"
+  url: "/contact/"
   side: left
 
 - title: "search"
-  url: "search/"
+  url: "/search/"
   side: right
