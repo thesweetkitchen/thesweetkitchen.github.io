@@ -2,8 +2,8 @@
   url: ""
   side: left
 
-- title: "experiments"
-  url: "experiments/"
+- title: "baking tests"
+  url: "baking-tests/"
   side: left
 
 #- title: "Recipes"

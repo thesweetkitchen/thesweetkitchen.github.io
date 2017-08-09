@@ -7,10 +7,10 @@
       alt: text 1 text 1
       title: title 1 title 1
     - src: /assets/img/hp_slider/hero-2.jpg
-      alt: image two
+      alt: text 2 text 2
       title: title 2 title 2
     - src: /assets/img/hp_slider/hero-3.jpg
-      alt: text 2 text 2
+      alt: text 3 text 3
       title: title 3 title 3
   settings:
-    height: 650
+    height: 700
