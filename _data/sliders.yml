@@ -4,13 +4,13 @@
   captions: true
   images:
     - src: /assets/img/hp_slider/hero-1.jpg
-      alt: text 1 text 1
-      title: title 1 title 1
+      title: Leaveners
+      alt: Rise baby rise
     - src: /assets/img/hp_slider/hero-2.jpg
-      alt: text 2 text 2
-      title: title 2 title 2
+      title: Tougheners
+      alt: You're a tough cookie!
     - src: /assets/img/hp_slider/hero-3.jpg
-      alt: text 3 text 3
-      title: title 3 title 3
+      title: Sweeteners
+      alt: Nothing a little sugar can't fix
   settings:
     height: 700

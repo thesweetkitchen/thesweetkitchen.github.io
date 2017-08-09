@@ -108,7 +108,7 @@
 
     <ul class="title-area">
       <li class="name">
-        <a id="nav-logo" href="http://localhost:4000/"><img src="http://localhost:4000/assets/img/logo.png" alt="The Sweet Kitchen logo" /></a>
+        <a id="nav-logo" href="http://localhost:4000/"><img src="http://localhost:4000//assets/img/logo.png" alt="The Sweet Kitchen logo" /></a>
       <h1 id="site-title"><a href="http://localhost:4000/">THE SWEET KITCHEN</a></h1>
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
