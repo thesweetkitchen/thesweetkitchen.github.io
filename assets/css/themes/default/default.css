@@ -26,7 +26,7 @@
 	border-radius: 50px;
 	background-size: 48px 48px;
 	cursor: pointer;
-	opacity: 0.6;
+	opacity: 0;
 	-webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
@@ -81,6 +81,14 @@
 		 -o-transition: 0.3s ease-out;
 			transition: 0.3s ease-out;
 }
+
+@media (max-width: 481px) {
+
+  .iis-bullet-nav a {
+		width: 10px;
+		height: 10px;
+	}
+}
 .iis-bullet-nav a.iis-bullet-active,
 .iis-bullet-nav a:hover { background: #FFD651; }
 .ideal-image-slider:hover .iis-bullet-nav { opacity: 0.7; }
@@ -90,27 +98,58 @@
 .iis-has-captions .iis-slide { text-indent: 0; }
 .iis-caption {
 	position: absolute;
-	left: 20%;
-	top: 30%;
+	left: 15%;
+	bottom:20%;
 	max-width: 90%;
 	z-index: 10;
-	background: #fff;
-	background: rgba(0,0,0,0.5);
-	padding: 5px 15px;
-	border-radius: 10px;
-	font: 24px/1.8em "Source Sans Pro", Helvetica, Arial, sans-serif;
-	color: #464646;
+	font: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	/*
+	background: rgba(255,255,255,0.9);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	border-radius: 2px;*/
 }
-.iis-has-bullet-nav .iis-caption { max-width: 42%; }
-.iis-caption .iis-caption-title { font-weight: 300; }
-.iis-caption .iis-caption-content {
-	font-size: 24px;
-	line-height: 1.8em;
-	color: #464646;
+.iis-has-bullet-nav .iis-caption { max-width: 45%; }
+
+.iis-caption-title span {
+	font-weight: 400;
+	font-size: 56px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 0px 20px 0px 20px;
+	display: inline-block;
+	color: #575757;
 }
+
+.iis-caption-content span {
+	font-weight:200;
+	background-color: rgba(255,255,255,0.8);
+	padding: 5px 30px;
+	display: inline-block;
+	font-size: 26px;
+	color: #7E7E7E;
+}
+
+@media (max-width:480px)  {
+	.iis-caption {
+		position: absolute;
+		left: 5%;
+		top:10%;
+	}
+
+	.iis-caption-title span {
+		font-size: 26px;
+
+	}
+
+	.iis-caption-content span {
+		font-size: 14px;
+	}
+
+	.iis-has-bullet-nav .iis-caption { max-width: 80%; }
+
+}
+
 .iis-caption .iis-caption-content a,
 .iis-caption .iis-caption-content a:visited {
 	color: #313131;

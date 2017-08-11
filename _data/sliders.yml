@@ -5,12 +5,13 @@
   images:
     - src: /assets/img/hp_slider/hero-1.jpg
       title: Leaveners
-      alt: Rise baby rise
+      alt: Up up and away!!! rise rise rise high up high up
     - src: /assets/img/hp_slider/hero-2.jpg
       title: Tougheners
-      alt: You're a tough cookie!
+      alt: What makes a cake strong
     - src: /assets/img/hp_slider/hero-3.jpg
       title: Sweeteners
       alt: Nothing a little sugar can't fix
   settings:
-    height: 700
+    height: "'auto'"
+    maxHeight: 700

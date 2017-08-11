@@ -20,21 +20,21 @@
 
 			var captionContent = '';
 			if (slide.getAttribute('title')) {
-				captionContent += '<div class="iis-caption-title">' + slide.getAttribute('title') + '</div>';
+				captionContent += '<div class="iis-caption-title"><span>' + slide.getAttribute('title') + '</span></div>';
 			}
 			if (slide.getAttribute('data-caption')) {
 				var dataCaption = slide.getAttribute('data-caption');
 				if (dataCaption.substring(0, 1) == '#' || dataCaption.substring(0, 1) == '.') {
 					var external = document.querySelector(dataCaption);
 					if (external) {
-						captionContent += '<div class="iis-caption-content">' + external.innerHTML + '</div>';
+						captionContent += '<div class="iis-caption-content"><span>' + external.innerHTML + '</span></div>';
 					}
 				} else {
-					captionContent += '<div class="iis-caption-content">' + slide.getAttribute('data-caption') + '</div>';
+					captionContent += '<div class="iis-caption-content"><span>' + slide.getAttribute('data-caption') + '</span></div>';
 				}
 			} else {
 				if (slide.innerHTML) {
-					captionContent += '<div class="iis-caption-content">' + slide.innerHTML + '</div>';
+					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span></div>';
 				}
 			}
 

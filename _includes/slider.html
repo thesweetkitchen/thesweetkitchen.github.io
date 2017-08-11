@@ -6,7 +6,9 @@
   <div id="{{ slider.selector }}">
   {% for image in slider.images %}
   <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
-    {% if image.href %}<a href="{{ image.href }}">{% endif %}<img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}">{% if image.href %}</a>{% endif %}
+    <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}">
   {% endfor %}
   </div>
 {% endif %}
+
+<!--<a href="{{ image.href }}">-->
