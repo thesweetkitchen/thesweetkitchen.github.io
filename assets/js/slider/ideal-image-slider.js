@@ -8,6 +8,8 @@
  * https://raw.githubusercontent.com/gilbitron/Ideal-Image-Slider/master/LICENSE
  */
 
+var imagelink = [];
+
 var IdealImageSlider = (function() {
 	"use strict";
 
@@ -447,6 +449,7 @@ var IdealImageSlider = (function() {
 		var origChildren = _toArray(sliderEl.children),
 			validSlides = [];
 		sliderEl.innerHTML = '';
+
 		Array.prototype.forEach.call(origChildren, function(slide, i) {
 			if (slide instanceof HTMLImageElement || slide instanceof HTMLAnchorElement) {
 				var slideEl = document.createElement('a'),
@@ -455,8 +458,12 @@ var IdealImageSlider = (function() {
 
 				if (slide instanceof HTMLAnchorElement) {
 					href = slide.getAttribute('href');
-					target = slide.getAttribute('target');
+					if (href) slideEl.setAttribute('href', href);
+					if (i == 1) {imagelink[0] = slide.getAttribute('href');}
+					if (i == 3) {imagelink[1] = slide.getAttribute('href');}
+					if (i == 5) {imagelink[2] = slide.getAttribute('href');}
 
+					target = slide.getAttribute('target');
 					var img = slide.querySelector('img');
 					if (img !== null) {
 						slide = img;

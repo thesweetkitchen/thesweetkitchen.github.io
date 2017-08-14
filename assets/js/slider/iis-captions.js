@@ -8,6 +8,8 @@
  * https://raw.githubusercontent.com/gilbitron/Ideal-Image-Slider/master/LICENSE
  */
 
+var i = 0;
+
 (function(IIS) {
 	"use strict";
 
@@ -34,9 +36,12 @@
 				}
 			} else {
 				if (slide.innerHTML) {
-					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span></div>';
+
+					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span><br /><span class="slide-cta"><a href="' + imagelink[i] +'">Learn more  ›</a></span></div>';
+					i++; //Yin: saving link of image separately
 				}
 			}
+
 
 			slide.innerHTML = '';
 			if (captionContent) {

@@ -46,9 +46,10 @@
 	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBvbHlnb24gZmlsbD0iI2ZmZmZmZiIgaWQ9InN2Z18xIiBwb2ludHM9IjE2MCwxMTUuNCAxODAuNyw5NiAzNTIsMjU2IDE4MC43LDQxNiAxNjAsMzk2LjcgMzEwLjUsMjU2ICIvPgogPC9nPgo8L3N2Zz4=");
 }
 .ideal-image-slider:hover .iis-previous-nav,
-.ideal-image-slider:hover .iis-next-nav { opacity: 0.7; }
+.ideal-image-slider:hover .iis-next-nav { opacity: 1.0; }
 .ideal-image-slider:hover .iis-previous-nav:hover,
-.ideal-image-slider:hover .iis-next-nav:hover { opacity: 1.0; }
+.ideal-image-slider:hover .iis-next-nav:hover { 	background-color: rgba(226,122,63, 1.0);
+}
 
 /* Bullet Navigation */
 .iis-bullet-nav {
@@ -113,21 +114,21 @@
 .iis-has-bullet-nav .iis-caption { max-width: 45%; }
 
 .iis-caption-title span {
-	font-weight: 400;
-	font-size: 56px;
-	background-color: rgba(255,255,255,0.8);
-	padding: 0px 20px 0px 20px;
+	font-weight: 500;
+	font-size: 50px;
+	background-color: rgba(255, 255, 255 ,0.9);
+	padding: 0px 20px;
 	display: inline-block;
-	color: #575757;
+	color: #009AB6;
 }
 
 .iis-caption-content span {
 	font-weight:200;
-	background-color: rgba(255,255,255,0.8);
-	padding: 5px 30px;
+	background-color: rgba(255, 255, 255,0.9);
+	padding: 5px 20px;
 	display: inline-block;
-	font-size: 26px;
-	color: #7E7E7E;
+	font-size: 18px;
+	color: #575757; /*#009AB6*/
 }
 
 @media (max-width:480px)  {
@@ -149,14 +150,39 @@
 	.iis-has-bullet-nav .iis-caption { max-width: 80%; }
 
 }
-
+/*
 .iis-caption .iis-caption-content a,
 .iis-caption .iis-caption-content a:visited {
-	color: #313131;
-	text-decoration: underline;
+	color: #009AB6;
 	border: 0;
-}
+}*/
 .iis-caption .iis-caption-content a:hover,
 .iis-caption .iis-caption-content a:active {
 	color: #fff;
+}
+
+.slide-cta {
+	display:block;
+	color: #fff;
+}
+
+.slide-cta span{
+	color: #fff;
+
+}
+
+.slide-cta a {
+	display:block;
+	background-color: #009AB6;
+	padding: 7px 10px;
+	margin-top:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.slide-cta a:hover{
+	background-color: #00afce;
 }

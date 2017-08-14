@@ -6,12 +6,15 @@
     - src: /assets/img/hp_slider/hero-1.jpg
       title: Leaveners
       alt: Up up and away!!! rise rise rise high up high up
+      href: https://thesweet.kitchen/blog1
     - src: /assets/img/hp_slider/hero-2.jpg
       title: Tougheners
-      alt: What makes a cake strong
+      alt: How to make a tough cookie
+      href: https://thesweet.kitchen/blog2
     - src: /assets/img/hp_slider/hero-3.jpg
       title: Sweeteners
       alt: Nothing a little sugar can't fix
+      href: https://thesweet.kitchen/blog3
   settings:
     height: "'auto'"
     maxHeight: 700
