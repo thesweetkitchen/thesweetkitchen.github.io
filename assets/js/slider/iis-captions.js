@@ -39,6 +39,7 @@ var i = 0;
 
 					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span><br /><span class="slide-cta"><a href="' + imagelink[i] +'">Learn more  ›</a></span></div>';
 					i++; //Yin: saving link of image separately
+
 				}
 			}
 

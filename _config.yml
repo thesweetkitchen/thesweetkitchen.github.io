@@ -1,5 +1,5 @@
 ---
-title: THE SWEET KITCHEN
+title: The Sweet Kitchen
 logo: logo.png
 timezone: UTC
 collections:
@@ -14,6 +14,36 @@ author: Yin
 url: 'https://thesweet.kitchen'
 baseurl: '/'
 language: 'en'
+
+gems:
+    - jekyll-asciidoc
+    - jekyll-gist
+    - jekyll-paginate
+
+paginate: 5
+paginate_path: "blog/page:num"
+
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: rouge
+excerpt_separator: "<!--more-->"
+include: ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+    - .sass-cache
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - INSTALL.md
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 #       ______            _
 #      / ____/___ __   __(_)________  ____  _____

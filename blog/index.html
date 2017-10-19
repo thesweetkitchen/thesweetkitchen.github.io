@@ -1,8 +1,61 @@
 ---
-title: Blog of Feeling Responsive
-layout: blog
-teaser: This is the Feeling Responsive Blog Template.
+title: Baking tests
+layout: page-fullwidth
 header:
-  image_fullwidth: header-bus.jpg
+  image_fullwidth: /assets/img/header/about-header.jpg
+  subtitle: Testing the ingredients so you don't have to
+breadcrumb: true
+meta_title: Baking tests
 ---
 
+
+<div class="row t30">
+    {% assign counter = 1 %}
+
+  {% for post in site.posts limit:10 %}
+  	{% if counter == 1 %}
+
+  	<div class="row ingredient-bg">
+      <img src="{{ site.url }}{{ site.baseurl }}{{ post.header.image_fullwidth }}">
+
+  		<div class="medium-3 columns triangle-wrapper short-div">
+  			<div class="triangle-top-left"></div>
+  			<div class="triangle-bottom-left"></div>
+  		</div>
+  		<div class="medium-9 columns ingredient-wrapper short-div">
+  			<div>
+            <h2>{{ post.title }}</h2>
+            <div class="archive_list_content post">{{ post.content }}</div>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+        </div>
+  		</div>
+
+  	</div>
+  		{% assign counter=counter | minus:1 %}
+
+  	 {% else %}
+  			<div class="row ingredient-bg">
+          <img src="{{ site.url }}{{ site.baseurl }}{{ post.header.image_fullwidth }}">
+
+  				<div class="medium-9 columns ingredient-wrapper short-div">
+  					<div>
+              <h2>{{ post.title }}</h2>
+              <div class="archive_list_content">{{ post.content }}</div>
+              <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+            </div>
+  				</div>
+  				<div class="medium-3 columns triangle-wrapper short-div">
+  					<div class="triangle-top-right"></div>
+  					<div class="triangle-bottom-right"></div>
+  				</div>
+  			</div>
+  			{% assign counter=counter | plus:1 %}
+
+  		{% endif %}
+  	{% endfor %}
+
+</div>
+
+{% comment %}
+  {% include _pagination.html %}
+{% endcomment %}

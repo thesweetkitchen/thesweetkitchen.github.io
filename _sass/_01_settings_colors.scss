@@ -30,7 +30,7 @@ $ci-1: #009AB6;		// #334D5C, dark turquoise
 $ci-2: #45B29D;		// turquoise
 $ci-3: #FFD651;		// yellow
 $ci-3-1: #FEE17F;		// light yellow
-$ci-4: #E27A3F;		// orange
+$ci-4: #ff8a2b;		// orange
 $ci-5: #DF4949;		// red
 $ci-6: #D7DF21;     // green
 
@@ -154,3 +154,11 @@ $highlight-name-tag: #000080;
 $highlight-text-whitespace: #bbbbbb;
 $highlight-literal-string-regex: #009926;
 $highlight-literal-string-symbol: #990073;
+
+/* Blog triangle colors
+------------------------------------------------------------------- */
+
+$top-left-triangle-color: #fff;
+$bottom-left-triangle-color: $ci-3;
+$top-right-triangle-color: #fff;
+$bottom-right-triangle-color: $ci-4;

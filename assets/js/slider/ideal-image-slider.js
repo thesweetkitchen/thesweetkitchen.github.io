@@ -456,9 +456,17 @@ var IdealImageSlider = (function() {
 					href = '',
 					target = '';
 
+					/*if (slide instanceof HTMLImageElement) {
+						if (i == 0) {imagelink[0] = slide.src;}
+						if (i == 1) {imagelink[1] = slide.src;}
+						if (i == 2) {imagelink[2] = slide.src;}
+					}*/
+
 				if (slide instanceof HTMLAnchorElement) {
+
 					href = slide.getAttribute('href');
 					if (href) slideEl.setAttribute('href', href);
+
 					if (i == 1) {imagelink[0] = slide.getAttribute('href');}
 					if (i == 3) {imagelink[1] = slide.getAttribute('href');}
 					if (i == 5) {imagelink[2] = slide.getAttribute('href');}

@@ -16,6 +16,7 @@
   
 
 	<script src="http://localhost:4000//assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000//assets/js/infinite-jekyll.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -51,7 +52,7 @@
 	<meta property="og:url" content="http://localhost:4000//assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="THE SWEET KITCHEN">
+	<meta property="og:site_name" content="The Sweet Kitchen">
 	
 	
 -->
@@ -109,7 +110,7 @@
     <ul class="title-area">
       <li class="name">
         <a id="nav-logo" href="http://localhost:4000/"><img src="http://localhost:4000//assets/img/logo.png" alt="The Sweet Kitchen logo" /></a>
-      <h1 id="site-title"><a href="http://localhost:4000/">THE SWEET KITCHEN</a></h1>
+      <h1 id="site-title"><a href="http://localhost:4000/">The Sweet Kitchen</a></h1>
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -148,7 +149,7 @@
           
             
             
-              <li><a  href="http://localhost:4000//baking-tests/">baking tests</a></li>
+              <li><a  href="http://localhost:4000//blog/">baking tests</a></li>
               <li class="divider"></li>
 
             
@@ -268,14 +269,14 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000//" title="THE SWEET KITCHEN – ">
-			 <img src="http://localhost:4000//assets/img/logo.png" alt="THE SWEET KITCHEN – ">
+			<a id="logo" href="http://localhost:4000//" title="The Sweet Kitchen – ">
+			 <img src="http://localhost:4000//assets/img/logo.png" alt="The Sweet Kitchen – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
-
-
+<!--
+-->
 
 
 
@@ -339,6 +340,7 @@
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
+    
 
     <footer id="footer-content" class="bg-grau">
       <div id="footer">

@@ -6,7 +6,7 @@
   <div id="{{ slider.selector }}">
   {% for image in slider.images %}
   <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
-    <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}">
+    <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"><a href="{{ image.href }}"></a>
   {% endfor %}
   </div>
 {% endif %}

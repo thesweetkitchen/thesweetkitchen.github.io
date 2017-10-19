@@ -4,16 +4,16 @@
   captions: true
   images:
     - src: /assets/img/hp_slider/hero-1.jpg
-      title: Leaveners
-      alt: Up up and away!!! rise rise rise high up high up
+      title: Flour
+      alt: This powder alone controls the texture of your goodies more than anything else.
       href: https://thesweet.kitchen/blog1
     - src: /assets/img/hp_slider/hero-2.jpg
-      title: Tougheners
-      alt: How to make a tough cookie
+      title: Sweetness
+      alt: How to add some sweetness to your goodies and the world
       href: https://thesweet.kitchen/blog2
     - src: /assets/img/hp_slider/hero-3.jpg
-      title: Sweeteners
-      alt: Nothing a little sugar can't fix
+      title: Humpty dumpty
+      alt: One ingredient, two opposite effects. It all depends on what you do with it.
       href: https://thesweet.kitchen/blog3
   settings:
     height: "'auto'"
