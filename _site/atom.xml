@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2017-10-18T06:56:11+00:00</updated>
+	<updated>2017-12-13T09:29:17+00:00</updated>
 
 	<subtitle></subtitle>
 
@@ -26,14 +26,14 @@
 
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/temperature/</id>
-			<title>Temperature</title>
-			<link href="http://localhost:4000//baking-tests/temperature/" rel="alternate" type="text/html" title="Temperature" />
-			<updated>2017-06-10T00:00:00+00:00</updated>
+			<id>http://localhost:4000//baking-tests/sweeteners/</id>
+			<title>Sweeteners</title>
+			<link href="http://localhost:4000//baking-tests/sweeteners/" rel="alternate" type="text/html" title="Sweeteners" />
+			<updated>2017-07-10T00:00:00+00:00</updated>
 
 			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/temperature/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sweeteners/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </content>
 
 			
@@ -43,18 +43,18 @@
 				<category term="post format" />
 			
 
-			<published>2017-06-10T00:00:00+00:00</published>
+			<published>2017-07-10T00:00:00+00:00</published>
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/Flavourings/</id>
-			<title>Flavourings</title>
-			<link href="http://localhost:4000//baking-tests/Flavourings/" rel="alternate" type="text/html" title="Flavourings" />
-			<updated>2017-05-10T00:00:00+00:00</updated>
+			<id>http://localhost:4000//baking-tests/sweeteners/</id>
+			<title>Sweeteners</title>
+			<link href="http://localhost:4000//baking-tests/sweeteners/" rel="alternate" type="text/html" title="Sweeteners" />
+			<updated>2017-07-10T00:00:00+00:00</updated>
 
 			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/Flavourings/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sweeteners/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </content>
 
 			
@@ -64,18 +64,18 @@
 				<category term="post format" />
 			
 
-			<published>2017-05-10T00:00:00+00:00</published>
+			<published>2017-07-10T00:00:00+00:00</published>
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/liquids/</id>
-			<title>Liquids</title>
-			<link href="http://localhost:4000//baking-tests/liquids/" rel="alternate" type="text/html" title="Liquids" />
-			<updated>2017-04-10T00:00:00+00:00</updated>
+			<id>http://localhost:4000//baking-tests/sweeteners/</id>
+			<title>Sweeteners</title>
+			<link href="http://localhost:4000//baking-tests/sweeteners/" rel="alternate" type="text/html" title="Sweeteners" />
+			<updated>2017-07-10T00:00:00+00:00</updated>
 
 			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/liquids/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sweeteners/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </content>
 
 			
@@ -85,70 +85,7 @@
 				<category term="post format" />
 			
 
-			<published>2017-04-10T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000//baking-tests/fats/</id>
-			<title>Fats</title>
-			<link href="http://localhost:4000//baking-tests/fats/" rel="alternate" type="text/html" title="Fats" />
-			<updated>2017-03-10T00:00:00+00:00</updated>
-
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/fats/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</content>
-
-			
-				<category term="Baking-tests" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2017-03-10T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000//baking-tests/flours/</id>
-			<title>Flours</title>
-			<link href="http://localhost:4000//baking-tests/flours/" rel="alternate" type="text/html" title="Flours" />
-			<updated>2017-02-10T00:00:00+00:00</updated>
-
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flours/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</content>
-
-			
-				<category term="Baking-tests" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2017-02-10T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000//baking-tests/eggs/</id>
-			<title>Eggs</title>
-			<link href="http://localhost:4000//baking-tests/eggs/" rel="alternate" type="text/html" title="Eggs" />
-			<updated>2017-01-10T00:00:00+00:00</updated>
-
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/eggs/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</content>
-
-			
-				<category term="Baking-tests" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2017-01-10T00:00:00+00:00</published>
+			<published>2017-07-10T00:00:00+00:00</published>
 		</entry>
 	
 </feed>

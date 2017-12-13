@@ -15,6 +15,8 @@
 
   
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 	<script src="http://localhost:4000//assets/js/modernizr.min.js"></script>
 	<script src="http://localhost:4000//assets/js/infinite-jekyll.js"></script>
 
@@ -27,13 +29,10 @@
 		});
 	</script>
 
-	<script src="/assets/js/slider/ideal-image-slider.js"></script>
 
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
 	</noscript>
-
-
 
 	<!-- Search Engine Optimization -->
 	<meta name="description" content="">
@@ -97,8 +96,7 @@
 
 	
 
-	<link rel="stylesheet" href="http://localhost:4000//assets/css/ideal-image-slider.css">
-	<link rel="stylesheet" href="http://localhost:4000//assets/css/themes/default/default.css">
+	
 
 		]]></xsl:text>
 	</head>
@@ -249,7 +247,7 @@
                   
                   
                     <li class="divider"></li>
-                    <li><a  href="http://localhost:4000//search/"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
+                    <li><a  href="http://localhost:4000//search/">  <i class="fa fa-search" aria-hidden="true"></i> search</a></li>
 
                   
                   
@@ -346,7 +344,7 @@
       <div id="footer">
         <div class="row">
           <div class="large-5 columns">
-            <h5>Newsletter</h5>
+            <h5>Get your weekly tips</h5>
 
             <p>
               <!--
@@ -438,7 +436,6 @@
 
 		
 
-
 <script src="http://localhost:4000//assets/js/javascript.min.js"></script>
 
 
@@ -447,6 +444,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54082e6526fad47f"></script>
 
 		]]></xsl:text>
 	</body>

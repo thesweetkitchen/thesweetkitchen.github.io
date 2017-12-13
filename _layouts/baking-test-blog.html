@@ -3,104 +3,127 @@ layout: default
 format: post
 ---
 
-<div class="row t30">
-		<article itemscope itemtype="http://schema.org/Article">
-			<!--<header>
-			{% if page.image.title %}
-				<figure>
-					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+	<article itemscope itemtype="http://schema.org/Article">
 
-					{% if page.image.caption_url and page.image.caption %}
-					<figcaption class="text-right">
-						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-					</figcaption>
-					{% elsif page.image.caption %}
-					<figcaption class="text-right">
-						{{ page.image.caption }}
-					</figcaption>
-					{% endif %}
-				</figure>
-				{% endif %}
-
-				<div itemprop="name">
-					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-					<h1>{{ page.title }}</h1>
-				</div>
-			</header>
-
-			{% if page.teaser %}
-			<p class="teaser" itemprop="description">
-				{{ page.teaser }}
-			</p>
-			{% endif %}-->
-
+		<div class="row t30">
 			<div itemprop="articleSection" class="intro_content">
 				{{ content }}
 			</div>
 
+			<!--List of individual ingredients -->
+			<h2>What does each ingredient do?</h2>
+			<dl class="accordion" data-accordion>
+				{% assign counter = 1 %}
+				{% assign triangle-counter = 1 %}
+				{% for ingredient in page.ingredients limit:1000 %}
+				<dd class="accordion-navigation">
+
+					<!--Ingredients title panel-->
+				<a href="#panel{{ counter }}" class="accordion-collapse" style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat left center;position:relative;overflow:hidden;">
+					<div class="accordion-title"><span class="iconfont"></span>{{ ingredient.item }}</div>
+					<div class="triangle-wrapper tall-div">
+						{% if triangle-counter == 1 %}
+							<div class="triangle-top-right" style="width:25%;"></div>
+							{% assign triangle-counter=triangle-counter | minus:1 %}
+						{% else %}
+						<div class="triangle-bottom-right" style="width:25%;"></div>
+							{% assign triangle-counter=triangle-counter | plus:1 %}
+						{% endif %}
+					</div>
+				</a>
+					<!--Ingredients details panel-->
+					<div id="panel{{ counter }}" class="content">
+
+							{% if ingredient.img_product %}<img src={{ingredient.img_product}} class="img_product">{% endif %}
+
+						<div>
+							{{ ingredient.description | markdownify }}
+
+							{% if ingredient.tips %}
+							<div class="accordion_tips">
+								Tips:
+								<ul>
+									{% for tip in ingredient.tips %}
+										<li>{{ tip }}</li>
+									{% endfor %}
+								</ul>
+							</div>
+							{% endif %}
+						</div>
+						<!--<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"></a>-->
+					</div>
+				</dd>
+				{% assign counter=counter | plus:1 %}
+				{% endfor %}
+			</dl>
+		</div>
+	{% comment %}
+	<!--
 			{% assign counter = 1 %}
-  			{% for ingredient in page.ingredients limit:1000 %}
-  				{% if counter == 1 %}
-  				<div class="row ingredient-bg" style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat left center;">
-  					<div class="medium-6 columns triangle-wrapper tall-div">
-  						<div class="triangle-top-left"></div>
-  						<div class="triangle-bottom-left"></div>
-  					</div>
-  					<div class="medium-6 columns ingredient-wrapper tall-div">
-  						<div markdown="1"><strong>{{ ingredient.item }}</strong>{{ ingredient.description | markdownify }}</div>
-  					</div>
-  				</div>
-  					{% assign counter=counter | minus:1 %}
-  				 {% else %}
-  						<div class="row ingredient-bg" style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat right center;">
-  							<div class="medium-6 columns ingredient-wrapper tall-div">
-  								<div markdown="1"><strong>{{ ingredient.item }}</strong>{{ ingredient.description | markdownify }}</div>
-  							</div>
-  							<div class="medium-6 columns triangle-wrapper tall-div">
-  								<div class="triangle-top-right"></div>
-  								<div class="triangle-bottom-right"></div>
-  							</div>
-              </div>
-              {% assign counter=counter | plus:1 %}
+				{% for ingredient in page.ingredients limit:1000 %}
+					{% if counter == 1 %}
+					s style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat left center;">
+						<div class="medium-6 columns triangle-wrapper tall-div">
+							<div class="triangle-top-left"></div>
+							<div class="triangle-bottom-left"></div>
+						</div>
+						<div class="medium-6 columns ingredient-wrapper tall-div">
+							<div markdown="1"><strong>{{ ingredient.item }}</strong>{{ ingredient.description | markdownify }}</div>
+						</div>
+					</div>
+						{% assign counter=counter | minus:1 %}
+					 {% else %}
+							<div class="row ingredient-bg" style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat right center;">
+								<div class="medium-6 columns ingredient-wrapper tall-div">
+									<div markdown="1"><strong>{{ ingredient.item }}</strong>{{ ingredient.description | markdownify }}</div>
+								</div>
+								<div class="medium-6 columns triangle-wrapper tall-div">
+									<div class="triangle-top-right"></div>
+									<div class="triangle-bottom-right"></div>
+								</div>
+							</div>
+							{% assign counter=counter | plus:1 %}
 
-            {% endif %}
-          {% endfor %}
+						{% endif %}
+					{% endfor %}
+	-->
+	{% endcomment %}
 
+			<!--List of ingredients comparison-->
+	<div class="row">
+			<div class="medium-8 columns">
+						<h2>Comparisons</h2>
+			</div>
+	</div>
+			<div class="large-12 columns">
 
-<!--List of ingredients comparison-->
-			<h2>Comparison summary</h2>
-					{% include gallery %}
+		          {% include slider.html selector=page.image_sliders %}
+			</div>
 
+{% if page.acknowledgements %}
+	<div class="row">
+		<div class="large-12 columns">
 					<!--list of acknowlegements-->
-
-			{% if page.acknowledgements %}
 			<h2>Acknowledgements</h2>
-			These were the resources used for this topic.
-
+			This blog is possible thanks to these great sources of information. 
 			<ol>
-					{% for acknowledgement in page.acknowledgements limit:1000 %}
+					{% for item in page.acknowledgements limit:1000 %}
 					<li>
-							<A href="{{ acknowledgement.url }}">{{ acknowledgement.resource | escape }}</a>
+						{% assign acknowledgement = site.data.acknowledgements[item] %}
+							<a href="{{ acknowledgement.url }}">{{ acknowledgement.name }}{% if acknowledgement.subtitle %}: {{ acknowledgement.subtitle }}{% endif %}</a>
 					</li>
 					{% endfor %}
 			</ol>
-			{% endif %}
+		</div>
+	</div>
+{% endif %}
 
-			<!--{% include list-posts tag='post format' %}-->
-			<!--end of list of other posts-->
-
-			<!--{% if page.show_meta == true %}
-			{% include _meta_information.html %}
-			{% endif %}
-
-			{% if page.comments == true %}
-			{% include _comments.html %}
-			{% endif %}-->
 		</article>
 
+<div class="row">
 			<!--list of other posts-->
-			<h2>Other posts </h2>
-			{% include list-posts tag='post format' %}
+			<h2>More baking tests</h2>
+			{% include list-posts tag='post format' entries='4' %}
 			<!--end of list of other posts-->
 
 			{% if page.show_meta == true %}
@@ -110,5 +133,4 @@ format: post
 			{% if page.comments == true %}
 			{% include _comments.html %}
 			{% endif %}
-		</article>
-	</div><!-- /.medium-8.columns -->
+</div>

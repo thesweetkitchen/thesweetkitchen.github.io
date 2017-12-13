@@ -45,6 +45,8 @@ compress_html:
   ignore:
     envs: [development]
 
+disqus_shortname: thesweetkitchen
+
 #       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/

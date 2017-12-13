@@ -9,57 +9,30 @@
 		<atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Temperature</title>
-				<link>http://localhost:4000//baking-tests/temperature/</link>
-				<pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+				<title>Sweeteners</title>
+				<link>http://localhost:4000//baking-tests/sweeteners/</link>
+				<pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/temperature/</guid>
+				<guid isPermaLink="true">http://localhost:4000//baking-tests/sweeteners/</guid>
 			</item>
 		
 			<item>
-				<title>Flavourings</title>
-				<link>http://localhost:4000//baking-tests/Flavourings/</link>
-				<pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+				<title>Sweeteners</title>
+				<link>http://localhost:4000//baking-tests/sweeteners/</link>
+				<pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/Flavourings/</guid>
+				<guid isPermaLink="true">http://localhost:4000//baking-tests/sweeteners/</guid>
 			</item>
 		
 			<item>
-				<title>Liquids</title>
-				<link>http://localhost:4000//baking-tests/liquids/</link>
-				<pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+				<title>Sweeteners</title>
+				<link>http://localhost:4000//baking-tests/sweeteners/</link>
+				<pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/liquids/</guid>
-			</item>
-		
-			<item>
-				<title>Fats</title>
-				<link>http://localhost:4000//baking-tests/fats/</link>
-				<pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/fats/</guid>
-			</item>
-		
-			<item>
-				<title>Flours</title>
-				<link>http://localhost:4000//baking-tests/flours/</link>
-				<pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/flours/</guid>
-			</item>
-		
-			<item>
-				<title>Eggs</title>
-				<link>http://localhost:4000//baking-tests/eggs/</link>
-				<pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/eggs/</guid>
+				<guid isPermaLink="true">http://localhost:4000//baking-tests/sweeteners/</guid>
 			</item>
 		
 	</channel>

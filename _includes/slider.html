@@ -1,14 +1,37 @@
 <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.5 -->
+
 {% if include.selector != empty %}
   {% assign slider = site.data.sliders | where:"selector",include.selector | first %}
-  <div id="{{ slider.selector }}">
-  {% for image in slider.images %}
-  <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
-    <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"><a href="{{ image.href }}"></a>
-  {% endfor %}
-  </div>
-{% endif %}
+{% assign counter = 1 %}
 
-<!--<a href="{{ image.href }}">-->
+
+  <div id="{{ slider.selector }}">
+
+    {% for image in slider.images %}
+
+    {% if page.gallery_enlarge %}
+      <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
+      <a href="#img{{counter}}"><img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"></a><a href="{{ image.href }}"></a>
+
+
+      {% assign counter=counter | plus:1 %}
+
+    {% else %}
+        <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"><a href="{{ image.href }}"></a>
+      {% endif %}
+
+    {% endfor %}
+
+  {% endif %}
+  </div>
+
+{% assign i = 1 %}
+  {% for image in slider.images %}
+  <a href="#_" class="lightbox" id="img{{i}}">
+    <p class="lightbox-close">X</p>
+    <img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}">
+    {% assign i=i | plus:1 %}
+  </a>
+{% endfor %}

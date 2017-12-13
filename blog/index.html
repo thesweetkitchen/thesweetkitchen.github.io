@@ -24,9 +24,12 @@ meta_title: Baking tests
   		</div>
   		<div class="medium-9 columns ingredient-wrapper short-div">
   			<div>
-            <h2>{{ post.title }}</h2>
-            <div class="archive_list_content post">{{ post.content }}</div>
-            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+            <h2 class="archive-list-title h2-no-margin">{{ post.title }}</h2>
+            <div class="archive-list-content post">
+              {{ post.content }}
+              <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+            </div>
+
         </div>
   		</div>
 
@@ -39,9 +42,12 @@ meta_title: Baking tests
 
   				<div class="medium-9 columns ingredient-wrapper short-div">
   					<div>
-              <h2>{{ post.title }}</h2>
-              <div class="archive_list_content">{{ post.content }}</div>
-              <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+              <h2 class="archive-list-title">{{ post.title }}</h2>
+              <div class="archive-list-content">
+                {{ post.content }}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">{{ site.data.language.read_more }}</a>
+              </div>
+
             </div>
   				</div>
   				<div class="medium-3 columns triangle-wrapper short-div">

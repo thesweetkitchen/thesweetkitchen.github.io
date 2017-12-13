@@ -12,7 +12,6 @@ var imagelink = [];
 
 var IdealImageSlider = (function() {
 	"use strict";
-
 	/*
 	 * requestAnimationFrame polyfill
 	 */
@@ -301,7 +300,6 @@ var IdealImageSlider = (function() {
 
 			var direction = _touch.vars.delta.x < 0 ? 'next' : 'previous';
 			var speed = this.settings.transitionDuration ? this.settings.transitionDuration / 2 : 0;
-
 			// If not scrolling vertically
 			if (!_touch.vars.isScrolling) {
 				if (isChangeSlide) {
@@ -443,19 +441,18 @@ var IdealImageSlider = (function() {
 
 		// Slider (container) element
 		var sliderEl = document.querySelector(this.settings.selector);
-		if (!sliderEl) return null;
 
+		if (!sliderEl) return null;
 		// Slides
 		var origChildren = _toArray(sliderEl.children),
 			validSlides = [];
 		sliderEl.innerHTML = '';
 
 		Array.prototype.forEach.call(origChildren, function(slide, i) {
-			if (slide instanceof HTMLImageElement || slide instanceof HTMLAnchorElement) {
+			if (slide instanceof HTMLImageElement || slide instanceof HTMLAnchorElement || slide instanceof HTMLDivElement) {
 				var slideEl = document.createElement('a'),
 					href = '',
 					target = '';
-
 					/*if (slide instanceof HTMLImageElement) {
 						if (i == 0) {imagelink[0] = slide.src;}
 						if (i == 1) {imagelink[1] = slide.src;}
@@ -464,9 +461,18 @@ var IdealImageSlider = (function() {
 
 				if (slide instanceof HTMLAnchorElement) {
 
+					if (slide instanceof HTMLDivElement){
+						//alert(document.getElementById('hrefname1'));
+					//	$(function(){
+					  //  var item = $("#slide-ul1"); //need to correctly identify the item (li, not ul. need a loop to go through items)
+					//		alert(document.getElementById('hrefname1'));
+					//	});
+					}
+
+
+
 					href = slide.getAttribute('href');
 					if (href) slideEl.setAttribute('href', href);
-
 					if (i == 1) {imagelink[0] = slide.getAttribute('href');}
 					if (i == 3) {imagelink[1] = slide.getAttribute('href');}
 					if (i == 5) {imagelink[2] = slide.getAttribute('href');}
@@ -519,6 +525,7 @@ var IdealImageSlider = (function() {
 		}.bind(this));
 
 		var slides = validSlides;
+
 		if (slides.length <= 1) {
 			sliderEl.innerHTML = '';
 			Array.prototype.forEach.call(origChildren, function(child, i) {

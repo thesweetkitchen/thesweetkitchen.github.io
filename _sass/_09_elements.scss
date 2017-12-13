@@ -137,23 +137,35 @@ dd.accordion-navigation:hover span:before {
 
 .accordion-collapse {
   clear:both;
-}
-
-.accordion-collapse .iconfont::before:hover{
-  color: #000;
-  border:1px solid red;
-}
-
-.accordion img {
-  width:30%;
-  margin: 15px;
-  float: left;
+  height:100px;
+  padding: 0 auto;
+  vertical-align: middle;
+  display:inline-table;
+  font-size: $font-size-h4;
 }
 
 .intro_content {
   margin-bottom: 50px;
 }
 
+.accordion-title {
+  font-size: $font-size-h4;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+
+}
+
+.img_product {
+  float:left;
+  width:200px;
+  margin-right: 20px;
+  height:100%;
+}
+
+.accordion_tips{
+  clear:both;
+}
 
 /* Lazy Load XT
 ------------------------------------------------------------------- */

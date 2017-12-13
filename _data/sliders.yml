@@ -6,15 +6,27 @@
     - src: /assets/img/hp_slider/hero-1.jpg
       title: Flour
       alt: This powder alone controls the texture of your goodies more than anything else.
-      href: https://thesweet.kitchen/blog1
+      href: /baking-tests/flours/
     - src: /assets/img/hp_slider/hero-2.jpg
       title: Sweetness
       alt: How to add some sweetness to your goodies and the world
-      href: https://thesweet.kitchen/blog2
+      href: /baking-tests/sweeteners/
     - src: /assets/img/hp_slider/hero-3.jpg
       title: Humpty dumpty
       alt: One ingredient, two opposite effects. It all depends on what you do with it.
-      href: https://thesweet.kitchen/blog3
+      href: /baking-tests/eggs/
+  settings:
+    height: "'auto'"
+    maxHeight: 700
+- selector: sweetener_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/img/hp_slider/hero-1.jpg
+      alt: This powder alone controls the texture of your goodies more than anything else.
+    - src: /assets/img/hp_slider/hero-2.jpg
+    - src: /assets/img/hp_slider/hero-3.jpg
+      alt: One ingredient, two opposite effects. It all depends on what you do with it.
   settings:
     height: "'auto'"
     maxHeight: 700

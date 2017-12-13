@@ -12,7 +12,9 @@
 	"use strict";
 
 	var _updateActiveBullet = function(slider, activeIndex) {
+
 		var bullets = slider._attributes.bulletNav.querySelectorAll('a');
+
 		if (!bullets) return;
 
 		Array.prototype.forEach.call(bullets, function(bullet, i) {

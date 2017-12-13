@@ -1,7 +1,7 @@
 ---
 title: Search
 permalink: "/search/"
-layout: page
+layout: page-fullwidth
 header:
   image_fullwidth: /assets/img/header/search-header.jpg
   title: Search
@@ -9,6 +9,9 @@ header:
 breadcrumb: true
 meta_title: Search
 sitemap: false
+sidebar: none
+
 ---
+
 
 {% include _google_search.html %}

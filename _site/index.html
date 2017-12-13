@@ -10,6 +10,8 @@
 
   
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 	<script src="http://localhost:4000//assets/js/modernizr.min.js"></script>
 	<script src="http://localhost:4000//assets/js/infinite-jekyll.js"></script>
 
@@ -22,13 +24,10 @@
 		});
 	</script>
 
-	<script src="/assets/js/slider/ideal-image-slider.js"></script>
 
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
 	</noscript>
-
-
 
 	<!-- Search Engine Optimization -->
 	<meta name="description" content="">
@@ -92,8 +91,10 @@
 
 	
 
-	<link rel="stylesheet" href="http://localhost:4000//assets/css/ideal-image-slider.css">
-	<link rel="stylesheet" href="http://localhost:4000//assets/css/themes/default/default.css">
+	
+		<link rel="stylesheet" href="http://localhost:4000//assets/css/ideal-image-slider.css">
+		<link rel="stylesheet" href="http://localhost:4000//assets/css/themes/default/default.css">
+	
 
 </head>
 <body id="top-of-page" class="frontpage">
@@ -243,7 +244,7 @@
                   
                   
                     <li class="divider"></li>
-                    <li><a  href="http://localhost:4000//search/"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
+                    <li><a  href="http://localhost:4000//search/">  <i class="fa fa-search" aria-hidden="true"></i> search</a></li>
 
                   
                   
@@ -267,31 +268,63 @@
 
 
 	<div id="header-home">
-    <div>
-        <div>
+
           <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.5 -->
 
+
   
+
+
+
   <div id="homepage_slider">
-  
-  <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="http://localhost:4000/" data-src-2x="http://localhost:4000/"-->
-    <img src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg" title="Flour" alt="This powder alone controls the texture of your goodies more than anything else."><a href="https://thesweet.kitchen/blog1"></a>
-  
-  <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="http://localhost:4000/" data-src-2x="http://localhost:4000/"-->
-    <img src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg" title="Sweetness" alt="How to add some sweetness to your goodies and the world"><a href="https://thesweet.kitchen/blog2"></a>
-  
-  <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="http://localhost:4000/" data-src-2x="http://localhost:4000/"-->
-    <img src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg" title="Humpty dumpty" alt="One ingredient, two opposite effects. It all depends on what you do with it."><a href="https://thesweet.kitchen/blog3"></a>
+
+    
+
+    
+        <img src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg" title="Flour" alt="This powder alone controls the texture of your goodies more than anything else."><a href="/baking-tests/flours/"></a>
+      
+
+    
+
+    
+        <img src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg" title="Sweetness" alt="How to add some sweetness to your goodies and the world"><a href="/baking-tests/sweeteners/"></a>
+      
+
+    
+
+    
+        <img src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg" title="Humpty dumpty" alt="One ingredient, two opposite effects. It all depends on what you do with it."><a href="/baking-tests/eggs/"></a>
+      
+
+    
+
   
   </div>
 
 
-<!--<a href="">-->
+  
+  <a href="#_" class="lightbox" id="img1">
+    <p class="lightbox-close">X</p>
+    <img src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg">
+    
+  </a>
 
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
+  <a href="#_" class="lightbox" id="img2">
+    <p class="lightbox-close">X</p>
+    <img src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg">
+    
+  </a>
+
+  <a href="#_" class="lightbox" id="img3">
+    <p class="lightbox-close">X</p>
+    <img src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg">
+    
+  </a>
+
+
+
 </div><!-- /#header-home -->
 
 
@@ -304,18 +337,17 @@
     <div class="row t60 b20 homepage">
         <div class="medium-6 columns">
             
-            <p class="subheadline">Baking tests</p>
-            <h2><a href="http://localhost:4000//baking-tests/temperature/">Temperature</a></h2>
+            <h2 class="h2-no-margin"><a href="http://localhost:4000//baking-tests/sweeteners/">Sweeteners</a></h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.
-                <a href="http://localhost:4000//baking-tests/temperature/" title="Read Temperature"><strong>Read more&nbsp;›</strong></a>
+                <a href="http://localhost:4000//baking-tests/sweeteners/" title="Read Sweeteners"><strong>Read more&nbsp;›</strong></a>
             </p>
             
         </div><!-- /.medium-5.columns -->
 
 
         <div class="medium-6 columns">
-            <p><strong>More articles</strong></p>
+            <p>More baking tests</p>
             
 
 
@@ -327,18 +359,11 @@
   
 
     
-      <li><a href="http://localhost:4000//baking-tests/Flavourings/">Baking tests &middot; <strong>Flavourings</strong></a></li>
-    
-      <li><a href="http://localhost:4000//baking-tests/liquids/">Baking tests &middot; <strong>Liquids</strong></a></li>
-    
-      <li><a href="http://localhost:4000//baking-tests/fats/">Baking tests &middot; <strong>Fats</strong></a></li>
-    
       <li class="text-right"><a href="http://localhost:4000//blog/archive/"><strong>More ›</strong></a></li>
 
 
   
 </ul>
-
 
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
@@ -348,10 +373,7 @@
 
 
 <div class="row">
-    <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.5 -->
-
+    
 <script src="http://localhost:4000//assets/js/slider/ideal-image-slider.js"></script>
 
 <script src="http://localhost:4000//assets/js/slider/iis-bullet-nav.js"></script>
@@ -359,6 +381,7 @@
 <script src="http://localhost:4000//assets/js/slider/iis-captions.js"></script>
 
 <script>
+
   
     
     
@@ -379,13 +402,46 @@
       
       
     });
+
     
     slider.addBulletNav();
     
     
     slider.addCaptions();
     
+
     slider.start();
+
+  
+    
+    
+    var slider = new IdealImageSlider.Slider({
+      selector: '#sweetener_slider',
+      
+      height: 'auto',
+      
+      
+      
+      maxHeight: 700,
+      
+      
+      
+      
+      
+      
+      
+      
+    });
+
+    
+    slider.addBulletNav();
+    
+    
+    slider.addCaptions();
+    
+
+    slider.start();
+
   
   </script>
 
@@ -460,7 +516,7 @@
       <div id="footer">
         <div class="row">
           <div class="large-5 columns">
-            <h5>Newsletter</h5>
+            <h5>Get your weekly tips</h5>
 
             <p>
               <!--
@@ -554,7 +610,6 @@
 
 	
 
-
 <script src="http://localhost:4000//assets/js/javascript.min.js"></script>
 
 
@@ -563,6 +618,84 @@
 
 
 
+
+
+
+
+
+
+
+  <script src="http://localhost:4000//assets/js/slider/ideal-image-slider.js"></script>
+  <script src="http://localhost:4000//assets/js/slider/iis-bullet-nav.js"></script>
+  <script src="http://localhost:4000//assets/js/slider/iis-captions.js"></script>
+  <script>
+
+  
+    
+    
+    var slider = new IdealImageSlider.Slider({
+      selector: '#homepage_slider',
+      
+      height: 'auto',
+      
+      
+      
+      maxHeight: 700,
+      
+      
+      
+      
+      
+      
+      
+      
+    });
+
+    
+    slider.addBulletNav();
+    
+    
+    slider.addCaptions();
+    
+
+    slider.start();
+
+  
+    
+    
+    var slider = new IdealImageSlider.Slider({
+      selector: '#sweetener_slider',
+      
+      height: 'auto',
+      
+      
+      
+      maxHeight: 700,
+      
+      
+      
+      
+      
+      
+      
+      
+    });
+
+    
+    slider.addBulletNav();
+    
+    
+    slider.addCaptions();
+    
+
+    slider.start();
+
+  
+  </script>
+
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54082e6526fad47f"></script>
 
 </body>
 </html>

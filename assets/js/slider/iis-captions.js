@@ -36,10 +36,11 @@ var i = 0;
 				}
 			} else {
 				if (slide.innerHTML) {
-
-					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span><br /><span class="slide-cta"><a href="' + imagelink[i] +'">Learn more  ›</a></span></div>';
+					captionContent += '<div class="iis-caption-content"><span>' + slide.innerHTML + '</span><br />';
+						if (imagelink[i]){
+							captionContent += '<span class="slide-cta"><a href="' + imagelink[i] +'">Learn more  ›</a></span></div>';
+						}
 					i++; //Yin: saving link of image separately
-
 				}
 			}
 
