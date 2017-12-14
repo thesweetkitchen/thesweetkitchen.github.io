@@ -17,7 +17,7 @@ ingredients:
   - item: Egg white
     img: /assets/img/baking-tests/eggs/egg-white.jpg
     img_product: /assets/img/baking-tests/eggs/egg-white.jpg
-    description: <p>_Egg white helps toughens the cake_.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id. Aenean luctus egestas dolor.</p><p>Donec cursus rutrum nibh ac fermentum. Ut non sodales lectus. Nam felis ex, ultrices non mattis sed, auctor sit amet felis. Donec cursus quam at elit tempor viverra. Nullam consequat orci non dui facilisis consequat in vel dolor. Mauris tempus nulla ligula, et mollis nisi laoreet ut. Ut dignissim consequat condimentum.</p>
+    description: <p>Egg white helps toughens the cake.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id. Aenean luctus egestas dolor.</p><p>Donec cursus rutrum nibh ac fermentum. Ut non sodales lectus. Nam felis ex, ultrices non mattis sed, auctor sit amet felis. Donec cursus quam at elit tempor viverra. Nullam consequat orci non dui facilisis consequat in vel dolor. Mauris tempus nulla ligula, et mollis nisi laoreet ut. Ut dignissim consequat condimentum.</p>
     tips:
       - Fresh eggs are baked goods
       - Cold eggs are great for
