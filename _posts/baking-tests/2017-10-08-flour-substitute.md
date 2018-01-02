@@ -1,7 +1,7 @@
 ---
-title: Flour
+title: Flour substitutes
 date: 2017-010-07 00:00:00 Z
-permalink: "/baking-tests/flour/"
+permalink: "/baking-tests/flour-substitutes/"
 categories:
 - Baking-tests
 tags:

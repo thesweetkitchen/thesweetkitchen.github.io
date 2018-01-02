@@ -450,9 +450,6 @@
 
 
 
-
-
-
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54082e6526fad47f"></script>
 
 		]]></xsl:text>

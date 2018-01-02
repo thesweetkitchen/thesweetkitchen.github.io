@@ -6113,82 +6113,6 @@ body.video cite {
 @media only screen and (max-width: 40em) {
   .triangle-wrapper {
     display: none; } }
-/*
-.triangle-top-right {
-  float:right;
-  position: absolute;
-  z-index: 1000;
-  width: 0;
-  height: 0;
-
-  border-bottom-width: 200px;
-  border-bottom-style: solid;
-  border-bottom-color: transparent;
-  border-right-width: 400px;
-  border-right-style: solid;
-  border-right-color: red;
-
-  right:0;
-  top:0;
-}
-
- .triangle-bottom-right {
-   float:right;
-   position: absolute;
-   z-index: 1000;
-   width: 0;
-   height: 0;
-
-   border-top-width: 200px;
-   border-top-style: solid;
-   border-top-color: transparent;
-   border-right-width: 400px;
-   border-right-style: solid;
-   border-right-color: red;
-
-   right:0;
-   bottom:0;
-}
-
-.triangle-top-left {
- float:left;
- position: absolute;
- z-index: 1000;
- width: 0;
- height: 0;
-
- border-bottom-width: 200px;
- border-bottom-style: solid;
- border-bottom-color: transparent;
- border-left-width: 400px;
- border-left-style: solid;
- border-left-color: white;
-
- left:0;
- top:0;
-}
-
-
-.triangle-bottom-left {
-
-  float:left;
-  position: absolute;
-  z-index: 1000;
-  width: 0;
-  height: 0;
-
-  border-top-width: 200px;
-  border-top-style: solid;
-  border-top-color: transparent;
-  border-left-width: 400px;
-  border-left-style: solid;
-  border-left-color: white;
-
-  left:0;
-  bottom:0;
-
-}
-*/
 .triangle-top-left {
   height: 50%;
   padding-bottom: 50%;
@@ -6458,6 +6382,12 @@ dd.accordion-navigation:hover span:before {
   margin-right: 20px;
   height: 100%; }
 
+@media only screen and (max-width: 40em) {
+  .img_product {
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+    height: 100%; } }
 .accordion_tips {
   clear: both; }
 

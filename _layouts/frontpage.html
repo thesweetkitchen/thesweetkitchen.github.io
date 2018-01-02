@@ -18,8 +18,6 @@ format: frontpage
 
 {% unless site.posts == empty %}
 
-
-
     <div class="row t60 b20 homepage">
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
@@ -78,7 +76,7 @@ format: frontpage
 *
 * First check, if there is a call for action-button
 *
-{% endcomment %}
+
 {% if page.callforaction.url contains 'http' %}
 {% assign url = '' %}
 {% else %}
@@ -91,3 +89,4 @@ format: frontpage
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 {% endif %}
+{% endcomment %}

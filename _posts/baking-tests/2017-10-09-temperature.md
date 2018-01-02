@@ -1,7 +1,7 @@
 ---
-title: Flour
+title: Temperature
 date: 2017-010-07 00:00:00 Z
-permalink: "/baking-tests/flour/"
+permalink: "/baking-tests/temperature/"
 categories:
 - Baking-tests
 tags:

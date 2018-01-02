@@ -163,6 +163,17 @@ dd.accordion-navigation:hover span:before {
   height:100%;
 }
 
+@media #{$small-only} {
+
+  .img_product {
+    float:left;
+    width:100%;
+    margin-right: 20px;
+    height:100%;
+  }
+}
+
+
 .accordion_tips{
   clear:both;
 }
