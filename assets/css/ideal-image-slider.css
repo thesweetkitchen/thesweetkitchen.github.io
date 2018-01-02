@@ -102,22 +102,26 @@
  	background: rgba(0,0,0,0.8);
  }
 
+ .lightbox-close {
+  top: 2%;
+ 	right: 4%;
+ 	color: #7E7E7E;;
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	float:right;
+ 	padding:10px 10px;
+  }
+
  .lightbox img {
  	/** Pad the lightbox image */
- 	width: 95%;
+ 	width: 90%;
  	max-height: 90%;
- 	margin-top: 4%;
+	clear:both;
+	display: block;
+	margin:0 auto;
+
  }
 
-.lightbox-close {
- 	top: 2%;
-	right: 4%;
-	color: #7E7E7E;;
-	font-size: 24px;
-	font-weight: bold;
-	float:right;
-	padding:10px 10px;
- }
 
  .lightbox:target {
  	/** Remove default browser outline */
