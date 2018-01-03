@@ -1,19 +1,17 @@
 <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.5 -->
-abc <br/>
-include selector: {{ include.selector}} <br />
 {% if include.selector != empty %}
   {% assign slider = site.data.sliders | where:"selector",include.selector | first %}
 {% assign counter = 1 %}
-def{{ slider.images }}
+
   <div id="{{ slider.selector }}">
 
     {% for image in slider.images %}
 
     {% if page.gallery_enlarge %}
       <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
-    <!--  <a href="#img{{counter}}">-->
+    slider.images: {{image}}
     <a href="javascript:openNav();"><img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"></a><a href="{{ image.href }}"></a>
 
 
