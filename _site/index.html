@@ -301,61 +301,6 @@
   
   </div>
 
-  <style>
-  body {
-      font-family: 'Lato', sans-serif;
-  }
-
-  .overlay {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1000;
-      top: 0;
-      left: 0;
-      background-color: rgb(0,0,0);
-      background-color: rgba(0,0,0, 0.9);
-      overflow-x: hidden;
-      transition: 0.5s;
-  }
-
-  .overlay-content {
-      position: relative;
-      top: 25%;
-      width: 100%;
-      text-align: center;
-      margin-top: 30px;
-  }
-
-  .overlay a {
-      padding: 8px;
-      text-decoration: none;
-      font-size: 36px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-  }
-
-  .overlay a:hover, .overlay a:focus {
-      color: #f1f1f1;
-  }
-
-  .overlay .closebtn {
-      position: absolute;
-      top: 20px;
-      right: 45px;
-      font-size: 60px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
-  }
-  </style>
 
   <div id="myNav" class="overlay">
 
@@ -364,13 +309,42 @@
 
     <!-- Overlay content -->
     <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      
+
+      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg" title="Flour" alt="This powder alone controls the texture of your goodies more than anything else.">
+      
+
+      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg" title="Sweetness" alt="How to add some sweetness to your goodies and the world">
+      
+
+      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg" title="Humpty dumpty" alt="One ingredient, two opposite effects. It all depends on what you do with it.">
+      
+
+      <a class="overlay-button" onclick="plusDivs(-1)">&#10094;</a>
+      <a class="overlay-button" onclick="plusDivs(+1)">&#10095;</a>
     </div>
 
   </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
 
 
 <script>
