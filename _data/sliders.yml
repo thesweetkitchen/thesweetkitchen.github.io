@@ -23,7 +23,7 @@
   captions: true
   images:
     - src: /assets/img/hp_slider/hero-1.jpg
-      alt: This powder alone controls the texture of your goodies more than anything else.
+      alt: This powder alone controls the texture of your goodies more than anything else.  
     - src: /assets/img/hp_slider/hero-2.jpg
     - src: /assets/img/hp_slider/hero-3.jpg
       alt: One ingredient, two opposite effects. It all depends on what you do with it.
