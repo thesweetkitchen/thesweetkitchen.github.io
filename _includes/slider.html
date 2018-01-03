@@ -1,11 +1,12 @@
 <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.5 -->
-abc
+abc <br/>
+include selector: {{ include.selector}} <br />
 {% if include.selector != empty %}
   {% assign slider = site.data.sliders | where:"selector",include.selector | first %}
 {% assign counter = 1 %}
-{{ slider.images }}
+def{{ slider.images }}
   <div id="{{ slider.selector }}">
 
     {% for image in slider.images %}
