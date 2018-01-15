@@ -49,8 +49,7 @@
 .ideal-image-slider:hover .iis-previous-nav,
 .ideal-image-slider:hover .iis-next-nav { opacity: 1.0; }
 .ideal-image-slider:hover .iis-previous-nav:hover,
-.ideal-image-slider:hover .iis-next-nav:hover { 	background-color: rgba(226,122,63, 1.0);
-}
+.ideal-image-slider:hover .iis-next-nav:hover { 	background-color: rgba(226,122,63, 1.0);}
 
 /* Bullet Navigation */
 .iis-bullet-nav {

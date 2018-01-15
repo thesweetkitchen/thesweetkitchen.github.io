@@ -311,13 +311,13 @@
     <div class="overlay-content">
       
 
-      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg" title="Flour" alt="This powder alone controls the texture of your goodies more than anything else.">
+      <img class="mySlides" id="1" src="http://localhost:4000//assets/img/hp_slider/hero-1.jpg" title="Flour" alt="This powder alone controls the texture of your goodies more than anything else.">
       
 
-      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg" title="Sweetness" alt="How to add some sweetness to your goodies and the world">
+      <img class="mySlides" id="1" src="http://localhost:4000//assets/img/hp_slider/hero-2.jpg" title="Sweetness" alt="How to add some sweetness to your goodies and the world">
       
 
-      <img class="mySlides" src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg" title="Humpty dumpty" alt="One ingredient, two opposite effects. It all depends on what you do with it.">
+      <img class="mySlides" id="1" src="http://localhost:4000//assets/img/hp_slider/hero-3.jpg" title="Humpty dumpty" alt="One ingredient, two opposite effects. It all depends on what you do with it.">
       
 
       <a class="overlay-button" onclick="plusDivs(-1)">&#10094;</a>
@@ -328,28 +328,41 @@
 
   <script>
   var slideIndex = 1;
-  showDivs(slideIndex);
+  var slideCurrent = 1;
+  var slideCounter = 1;
+  //showDivs(slideIndex);
 
   function plusDivs(n) {
-    showDivs(slideIndex += n);
+    var x = document.getElementsByClassName("mySlides");
+   var slideCounter = slideCurrent*1 + n*1; //*1 to ensure variables are numbers, not strings
+
+    if ( n > 0 && slideCounter > x.length) {
+      //Case 1: looking at next slide, and this is the last slide, then loop
+      slideCounter = 1;
+    } else if (n < 0 && slideCounter == 0) {
+      //Case 2: if this is the first slide, show last slide
+      slideCounter = x.length;
+    }
+
+    slideCurrent = slideCounter;
+    showDivs(slideCounter);
   }
 
   function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
+  /*  if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}*/
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";
     }
-    x[slideIndex-1].style.display = "block";
+    x[n-1].style.display = "block";
   }
-  </script>
 
-
-<script>
-function openNav() {
+function openNav(n) {
+    slideCurrent = n;
     document.getElementById("myNav").style.width = "100%";
+    showDivs(slideCurrent);
 }
 
 function closeNav() {
