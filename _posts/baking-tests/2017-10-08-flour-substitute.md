@@ -11,7 +11,7 @@ subheadline: Baking tests
 header:
   image_fullwidth: /assets/img/header/about-header.jpg
   subtitle: A little sweetness won't hurt
-breadcrumb: false
+breadcrumb: true
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.
 ingredients:
   - item: Egg white

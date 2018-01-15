@@ -15,9 +15,6 @@
             <h5>{{ site.data.language.newsletter }}</h5>
 
             <p>
-              <!--{{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>-->
-
               <!-- Begin MailChimp Signup Form -->
               <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 
@@ -32,15 +29,12 @@
                   </div>
               </form>
               </div>
-
               <!--End mc_embed_signup-->
-
-
             </p>
-          </div><!-- /.large-6.columns -->
+          </div><!-- /.large-5.columns -->
 
 
-          <div id="subfooter-right" class="small-12 medium-6 columns">
+          <div id="subfooter-right" class="small-12 large-7 columns">
               <h5>Connect with me!</h5>
               <p>
             <ul class="inline-list social-icons">
@@ -48,44 +42,20 @@
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
-          </p>
+            </p>
           </div>
-
+          
         </div><!-- /.row -->
 
         <div class="row">
-          <!--
-          <div id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </div>
-        -->
-
           <div id="subfooter" class="small-24 medium-12 columns credits" >
             © 2017 Copyright The Sweet Kitchen. All rights reserved. Template based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.
           </div>
         </div>
 
 
-
-        </div>
-
       </div><!-- /#footer -->
 
-<!--
-      <div id="subfooter">
-        <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
-            {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-            {% endfor %}
-            </ul>
-          </section>
-        </nav>
-      </div>--><!-- /#subfooter -->
 
     </footer>
