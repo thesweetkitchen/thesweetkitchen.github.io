@@ -1,7 +1,7 @@
 ---
 title: The Sweet Kitchen
 logo: logo.png
-timezone: UTC
+timezone: Asia/Shanghai
 collections:
   posts:
     title: Posts
