@@ -13,7 +13,7 @@
 
     {% if page.gallery_enlarge %}
       <!--YIN: ADD BACK BEFORE SRC WHEN THERE'S RETINA PIC: data-src="{{ site.url }}{{ site.baseurl }}{{ image.data-src }}" data-src-2x="{{ site.url }}{{ site.baseurl }}{{ image.data-src-2x }}"-->
-    <a href="#" onclick="javascript:openNav('{{ counter }}');"><img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"></a><a href="{{ image.href }}"></a>
+    <a href="javascript:openNav('{{ counter }}');"><img src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}"></a><a href="{{ image.href }}"></a>
 
 
       {% assign counter=counter | plus:1 %}
