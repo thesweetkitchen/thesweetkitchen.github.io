@@ -41,8 +41,8 @@
       <img class="mySlides" id="{{ counter }}" src="{{ site.url }}{{ site.baseurl }}{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}">
       {% endfor %}
 
-      <a class="overlay-button" onclick="plusDivs(-1)">&#10094;</a>
-      <a class="overlay-button" onclick="plusDivs(+1)">&#10095;</a>
+      <a class="overlay-button-prev" onclick="plusDivs(-1)"></a>
+      <a class="overlay-button-next" onclick="plusDivs(+1)"></a>
     </div>
 
   </div>
@@ -53,7 +53,7 @@
 
   function plusDivs(n) {
   	var x = document.getElementsByClassName("mySlides");
-    var slideCounter = slideCurrent*1 + n*1; 
+    var slideCounter = slideCurrent*1 + n*1;
 
   	if ( n > 0 && slideCounter > x.length) {
   		slideCounter = 1;
