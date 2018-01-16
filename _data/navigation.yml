@@ -10,9 +10,9 @@
 #  url: "/recipes/"
 #  side: left
 
-- title: resources
-  url: "/resources/"
-  side: left
+#- title: resources
+#  url: "/resources/"
+#  side: left
 
 - title: about
   url: "/about/"
