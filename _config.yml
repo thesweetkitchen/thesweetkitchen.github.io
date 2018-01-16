@@ -37,13 +37,13 @@ exclude:
     - README.md
     - INSTALL.md
 
-#compress_html:
-#  clippings: all
+compress_html:
+  clippings: all
 #  comments: ["<!-- ", " -->"]
-#  endings: all
-#  profile: false
-#  ignore:
-#    envs: [development]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 disqus_shortname: thesweetkitchen
 

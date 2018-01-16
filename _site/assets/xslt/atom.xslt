@@ -292,7 +292,7 @@ function closeNav() {
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="http://localhost:4000//" title="The Sweet Kitchen – ">
-			 <img src="http://localhost:4000//assets/img/logo.png" alt="The Sweet Kitchen – ">
+			 <img src="http://localhost:4000//assets/img/logo.jpng" alt="The Sweet Kitchen – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
