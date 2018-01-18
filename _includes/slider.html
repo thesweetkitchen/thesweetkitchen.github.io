@@ -2,7 +2,6 @@
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.5 -->
 
-
 {% if include.selector != empty %}
   {% assign slider = site.data.sliders | where:"selector",include.selector | first %}
 {% assign counter = 1 %}
@@ -27,7 +26,9 @@
   {% endif %}
   </div>
 
-
+  {% if page.gallery_enlarge %}
+    <div id="overlayLink" style="visibility:none;"></a>
+  {% endif %}
 
   <div id="myNav" class="overlay">
 
@@ -50,7 +51,15 @@
   <script>
   var slideCurrent = 1;
   var slideCounter = 1;
-
+/*
+  if (document.getElementById('overlayLink')){
+    var overlaySlides = document.querySelectorAll("a[href^='javascript:openNav']");
+    for (var i = 0, l = overlaySlides.length; i < l; i++){
+      var overlaySlide = overlaySlides[i];
+      overlaySlide.className += " iis-slide-cursor-overlay";
+    }
+  }
+*/
   function plusDivs(n) {
   	var x = document.getElementsByClassName("mySlides");
     var slideCounter = slideCurrent*1 + n*1;
@@ -84,4 +93,6 @@
   function closeNav() {
   	document.getElementById("myNav").style.width = "0%";
   }
+
+
   </script>

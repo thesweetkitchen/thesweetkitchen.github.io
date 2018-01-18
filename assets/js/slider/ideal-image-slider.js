@@ -432,6 +432,7 @@ var IdealImageSlider = (function() {
 			afterChange: function() {}
 		};
 
+
 		// Parse args
 		if (typeof args === 'string') {
 			this.settings.selector = args;
@@ -470,7 +471,6 @@ var IdealImageSlider = (function() {
 					}
 
 
-
 					href = slide.getAttribute('href');
 					if (href) slideEl.setAttribute('href', href);
 					if (i == 1) {imagelink[0] = slide.getAttribute('href');}
@@ -487,7 +487,9 @@ var IdealImageSlider = (function() {
 				}
 
 				if (typeof slide.dataset !== 'undefined') {
+
 					_deepExtend(slideEl.dataset, slide.dataset);
+
 					if (slide.dataset.src) {
 						// Use data-src for on-demand loading
 						slideEl.dataset.src = slide.dataset.src;
@@ -516,6 +518,11 @@ var IdealImageSlider = (function() {
 				if (slide.getAttribute('alt')) slideEl.innerHTML = slide.getAttribute('alt');
 				slideEl.setAttribute('role', 'tabpanel');
 				slideEl.setAttribute('aria-hidden', 'true');
+
+				//add cursor as pointer if there is an overlay in the slide
+				if (document.getElementById("overlayLink")){
+					_addClass(slideEl, "iis-slide-cursor-overlay");
+				}
 
 				slideEl.style.cssText += '-webkit-transition-duration:' + this.settings.transitionDuration + 'ms;-moz-transition-duration:' + this.settings.transitionDuration + 'ms;-o-transition-duration:' + this.settings.transitionDuration + 'ms;transition-duration:' + this.settings.transitionDuration + 'ms;';
 
