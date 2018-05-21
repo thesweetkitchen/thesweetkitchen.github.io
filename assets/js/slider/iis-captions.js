@@ -20,6 +20,7 @@ var i = 0;
 			var caption = document.createElement('div');
 			IIS._addClass(caption, 'iis-caption');
 
+
 			var captionContent = '';
 			if (slide.getAttribute('title')) {
 				captionContent += '<div class="iis-caption-title"><span>' + slide.getAttribute('title') + '</span></div>';

@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 layout: page
-sidebar: right
+##sidebar: right
 header:
   image_fullwidth: /assets/img/header/about-header.jpg
   subtitle: A little something about myself

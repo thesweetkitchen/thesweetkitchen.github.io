@@ -46,20 +46,19 @@
 		
 			<item>
 				<title>Flour</title>
-				<link>http://localhost:4000//baking-tests/flour/</link>
+				<link>http://localhost:4000//baking-tests/flour-cake/</link>
 				<pubDate>Mon, 10 Jul 2017 08:00:00 +0800</pubDate>
-				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+				<description>&lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
+
+&lt;p&gt;Flour is a main part of what gives our cakes structure and it determines how your cake holds up, how moist it is, how it tastes, how it looks, its nutritional value. Most of the flour that we use for baking comes from wheat.&lt;/p&gt;
+
+&lt;p&gt;Of course we can’t talk about flour without talking about the &lt;em&gt;dirty&lt;/em&gt; word &lt;strong&gt;gluten&lt;/strong&gt;. Gluten basically just means how elastic and chewy the cake will be. I won’t go into the science of it, just know that lower protein level means less gluten, which results in a less chewy and elastic cake (like angel food cake) and more protein means more gluten resulting in chewy goodies (like bread). We usually try to have less gluten in cakes  for a light and tender texture. There are other factors that minimise gluten development: less liquid, less mixing strength and duration, added baking soda or powder, more fat, more sugar, less salt, appropriate acidity level, etc. Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
+
+&lt;p&gt;Cakes are mostly held up by starch, around 70% of the flour weight. There’s simply too much liquid and sugar in cakes for gluten to form like it does in bread.&lt;/p&gt;
+
+&lt;p&gt;Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. &lt;a href=&quot;https://www.weekendbakery.com/posts/understanding-flour-types/&quot; target=&quot;_blank&quot;&gt;Flour around the world &lt;/a&gt; are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/flour/</guid>
-			</item>
-		
-			<item>
-				<title>Eggs</title>
-				<link>http://localhost:4000//baking-tests/eggs/</link>
-				<pubDate>Mon, 10 Jul 2017 08:00:00 +0800</pubDate>
-				<description>&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000//baking-tests/eggs/</guid>
+				<guid isPermaLink="true">http://localhost:4000//baking-tests/flour-cake/</guid>
 			</item>
 		
 	</channel>

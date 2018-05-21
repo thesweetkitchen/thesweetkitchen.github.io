@@ -3,11 +3,11 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/img/hp_slider/hero-1.jpg
+    - src: assets/img/hp_slider/hero-1.jpg
       title: Flour
-      alt: This powder alone controls the texture of your goodies more than anything else.
-      href: /baking-tests/flours/
-    - src: /assets/img/hp_slider/hero-2.jpg
+      alt: Simple not simple
+      href: /baking-tests/flour-cake/
+    - src: /assets/img/header/search-header.jpg
       title: Sweetness
       alt: How to add some sweetness to your goodies and the world
       href: /baking-tests/sweeteners/
@@ -22,11 +22,10 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/img/hp_slider/hero-1.jpg
-      alt: This powder alone controls the texture of your goodies more than anything else.  
-    - src: /assets/img/hp_slider/hero-2.jpg
-    - src: /assets/img/hp_slider/hero-3.jpg
-      alt: One ingredient, two opposite effects. It all depends on what you do with it.
+    - src: /assets/img/baking-tests/flours/slide02.jpg
+      title: 
+    - src: /assets/img/baking-tests/flours/slide03.jpg
+      title:
   settings:
     height: "'auto'"
     maxHeight: 700

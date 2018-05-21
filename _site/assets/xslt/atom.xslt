@@ -253,8 +253,8 @@
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
-<!--
--->
+
+<!---->
 
 
 
@@ -318,13 +318,12 @@
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-    
 
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
           <div class="large-5 columns">
-            <h5>Get your weekly tips</h5>
+            <h5>Get baking tips</h5>
 
             <p>
               <!-- Begin MailChimp Signup Form -->
@@ -346,7 +345,7 @@
 
 
           <div id="subfooter-right" class="small-12 large-7 columns">
-              <h5>Connect with me!</h5>
+              <h5>Connect with me</h5>
               <p>
             <ul class="inline-list social-icons">
             

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2018-01-23T15:15:40+08:00</updated>
+	<updated>2018-05-21T18:50:10+08:00</updated>
 
 	<subtitle></subtitle>
 
@@ -15,6 +15,10 @@
 				<name>Yin</name>
 			
 			
+				<email>yin@thesweet.kitchen</email>
+			
+			
+				<uri>/about/</uri>
 			
 		</author>
 	
@@ -110,39 +114,39 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/flour/</id>
+			<id>http://localhost:4000//baking-tests/flour-cake/</id>
 			<title>Flour</title>
-			<link href="http://localhost:4000//baking-tests/flour/" rel="alternate" type="text/html" title="Flour" />
+			<link href="http://localhost:4000//baking-tests/flour-cake/" rel="alternate" type="text/html" title="Flour" />
 			<updated>2017-07-10T08:00:00+08:00</updated>
 
 			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flour/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/flour-cake/">&lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
+
+&lt;p&gt;Flour is a main part of what gives our cakes structure and it determines how your cake holds up, how moist it is, how it tastes, how it looks, its nutritional value. Most of the flour that we use for baking comes from wheat.&lt;/p&gt;
+
+&lt;p&gt;Of course we can’t talk about flour without talking about the &lt;em&gt;dirty&lt;/em&gt; word &lt;strong&gt;gluten&lt;/strong&gt;. Gluten basically just means how elastic and chewy the cake will be. I won’t go into the science of it, just know that lower protein level means less gluten, which results in a less chewy and elastic cake (like angel food cake) and more protein means more gluten resulting in chewy goodies (like bread). We usually try to have less gluten in cakes  for a light and tender texture. There are other factors that minimise gluten development: less liquid, less mixing strength and duration, added baking soda or powder, more fat, more sugar, less salt, appropriate acidity level, etc. Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
+
+&lt;p&gt;Cakes are mostly held up by starch, around 70% of the flour weight. There’s simply too much liquid and sugar in cakes for gluten to form like it does in bread.&lt;/p&gt;
+
+&lt;p&gt;Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. &lt;a href=&quot;https://www.weekendbakery.com/posts/understanding-flour-types/&quot; target=&quot;_blank&quot;&gt;Flour around the world &lt;/a&gt; are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.&lt;/p&gt;
 </content>
 
 			
-				<category term="Baking-tests" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2017-07-10T08:00:00+08:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000//baking-tests/eggs/</id>
-			<title>Eggs</title>
-			<link href="http://localhost:4000//baking-tests/eggs/" rel="alternate" type="text/html" title="Eggs" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
-
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/eggs/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</content>
-
-			
-				<category term="Baking-tests" />
+				<category term="baking-tests cakes" />
 			
 			
 				<category term="post format" />

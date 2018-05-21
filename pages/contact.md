@@ -4,7 +4,7 @@ permalink: "/contact/"
 layout: page
 header:
   image_fullwidth: /assets/img/header/contact-header.jpg
-  subtitle: Hello! Feel free to send me any questions, suggestions, or just to say hi. Love hearing from you!
+  subtitle: Feel free to send me any feedback or just to say hi. Love hearing from you!
 breadcrumb: true
 meta_title: contact
 ---
