@@ -6017,10 +6017,11 @@ body.video cite {
 .ingredient-bg img {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
   width: 100%;
   height: auto;
-  opacity: 0.7; }
+  opacity: 0.7;
+  transform: translateY(-50%); }
 
 .archive-list-title {
   background-color: rgba(255, 255, 255, 0.9);

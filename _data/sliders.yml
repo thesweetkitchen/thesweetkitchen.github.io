@@ -5,7 +5,7 @@
   images:
     - src: assets/img/hp_slider/hero-1.jpg
       title: Flour
-      alt: Simple not simple
+      alt: Simple not simple.
       href: /baking-tests/flour-cake/
     - src: /assets/img/header/search-header.jpg
       title: Sweetness
@@ -22,9 +22,13 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/img/baking-tests/flours/slide02.jpg
-      title: 
-    - src: /assets/img/baking-tests/flours/slide03.jpg
+    - src: /assets/img/baking-tests/flours/flour-cake-appearance.jpg
+      title:
+    - src: /assets/img/baking-tests/flours/flour-cake-taste-smell.jpg
+      title:
+    - src: /assets/img/baking-tests/flours/flour-cake-texture.jpg
+      title:
+    - src: /assets/img/baking-tests/flours/flour-cake-moisture.jpg
       title:
   settings:
     height: "'auto'"

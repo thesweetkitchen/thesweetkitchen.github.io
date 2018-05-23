@@ -48,7 +48,7 @@ ingredients:
     img_product: /assets/img/baking-tests/eggs/egg-white.jpg
     description: <p>Self rising flour is actually just flour with baking powder added to it already. This saves us a step with measuring out baking powder when using in a recipe. About 5% of its weight is baking powder. Since there is already leavening added, it creates the most rise out of all the flour and makes the most tender cake, but the same effect can be achieved with the other flours if you add baking powder to it.</p><p>Just keep in mind that since there’s already baking powder in it, you can’t use self rising flour in recipes that don't need chemical leavening, such as yeast leavened bread.</p>
 acknowledgements:
-  - Bakewise
+  - On Food and Cooking
   - Ratio
 gallery_enlarge: true
 gallery:
