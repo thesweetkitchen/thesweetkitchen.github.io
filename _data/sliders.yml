@@ -3,7 +3,7 @@
   bullets: true
   captions: true
   images:
-    - src: assets/img/hp_slider/hero-1.jpg
+    - src: /assets/img/baking-tests/flours/flour-hp.jpg
       title: Flour
       alt: Simple not simple.
       href: /baking-tests/flour-cake/
