@@ -22,13 +22,13 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/img/baking-tests/flours/flour-cake-appearance.jpg
+    - src: /assets/img/baking-tests/flours/appearance-flour-cake.jpg
       title:
-    - src: /assets/img/baking-tests/flours/flour-cake-taste-smell.jpg
+    - src: /assets/img/baking-tests/flours/taste-smell-flour-cake.jpg
       title:
-    - src: /assets/img/baking-tests/flours/flour-cake-texture.jpg
+    - src: /assets/img/baking-tests/flours/texture-flour-cake.jpg
       title:
-    - src: /assets/img/baking-tests/flours/flour-cake-moisture.jpg
+    - src: /assets/img/baking-tests/flours/moisture-flour-cake.jpg
       title:
   settings:
     height: "'auto'"
