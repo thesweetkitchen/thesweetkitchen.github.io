@@ -4,7 +4,7 @@
   captions: true
   images:
     - src: /assets/img/baking-tests/flours/flour-hp.jpg
-      title: Flour
+      title: Flour 
       alt: Simple not simple.
       href: /baking-tests/flour-cake/
     - src: /assets/img/header/search-header.jpg
