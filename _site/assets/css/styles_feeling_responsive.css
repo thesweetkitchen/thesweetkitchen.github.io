@@ -6384,7 +6384,7 @@ dd.accordion-navigation:hover span:before {
 .img_product {
   float: left;
   width: 200px;
-  margin-right: 20px;
+  margin: 0 20px 20px 0;
   height: 100%; }
 
 @media only screen and (max-width: 40em) {

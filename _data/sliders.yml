@@ -4,8 +4,8 @@
   captions: true
   images:
     - src: /assets/img/baking-tests/flours/flour-hp.jpg
-      title: Flour 
-      alt: Simple not simple.
+      title: Flour
+      alt: Simple not simple. Understand how using different types of flour can give you the desired results.
       href: /baking-tests/flour-cake/
     - src: /assets/img/header/search-header.jpg
       title: Sweetness

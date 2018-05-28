@@ -23,8 +23,9 @@ format: post
 
 					<!--Ingredients title panel-->
 				<a href="#panel{{ counter }}" class="accordion-collapse" style="background:url('{{ site.url }}{{ site.baseurl }}{{ ingredient.img }}') no-repeat left center;position:relative;overflow:hidden;">
+
 					<div class="accordion-title"><span class="iconfont"></span>{{ ingredient.item }}</div>
-					<div class="triangle-wrapper tall-div">
+						<div class="triangle-wrapper tall-div">
 						{% if triangle-counter == 1 %}
 							<div class="triangle-top-right" style="width:25%;"></div>
 							{% assign triangle-counter=triangle-counter | minus:1 %}
@@ -37,7 +38,7 @@ format: post
 					<!--Ingredients details panel-->
 					<div id="panel{{ counter }}" class="content">
 
-							{% if ingredient.img_product %}<div><img src={{ingredient.img_product}} class="img_product"></div>{% endif %}
+							{% if ingredient.img_product %}<div><img src={{ ingredient.img_product }} class="img_product"></div>{% endif %}
 
 						<div>
 							{{ ingredient.description | markdownify }}
