@@ -1,8 +1,8 @@
 ---
-title: Flour
+title: Sweetener
 subheadline: Cakes
-date: 2017-010-07 00:00:00 Z
-permalink: "/baking-tests/flour-cake/"
+date: 2018-06-02 00:00:00 Z
+permalink: "/baking-tests/sweetener-cake/"
 author: Yin
 categories:
 - baking-tests cakes
@@ -55,16 +55,10 @@ comments: true
 image_sliders: sweetener_slider
 image_sliders_load_all: true
 ---
-Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?
+Sweetener Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque dolor ac arcu porttitor, vel finibus diam ornare. Integer augue tellus, ullamcorper id rutrum et, tristique tempor lacus. Curabitur sed nisl eu nulla dignissim sagittis. Aliquam nec volutpat mauris, non facilisis ante. Nullam ornare ornare orci, vitae hendrerit metus ullamcorper vestibulum. Proin nec lacus maximus, bibendum leo vel, dapibus purus. Integer tincidunt sit amet augue at sodales. Nullam vulputate libero ex, a vestibulum nunc ultricies ut. Integer dignissim sapien lorem, eu ultrices orci pretium in. Vestibulum nec imperdiet augue. Pellentesque laoreet malesuada imperdiet. In porta auctor velit a sodales. Pellentesque gravida tempus massa, non blandit mauris bibendum at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In placerat neque ut turpis maximus ultrices.
 
-Flour is a main part of what gives our cakes structure and it determines how your cake holds up, how moist it is, how it tastes, how it looks, its nutritional value. Most of the flour that we use for baking comes from wheat.
+Donec quis tincidunt mi, eget rutrum massa. Ut mi nunc, interdum vitae nulla et, luctus lobortis sapien. Aenean nec aliquet sapien. Aenean sagittis metus nec ex hendrerit, vitae viverra arcu pharetra. Curabitur blandit sagittis maximus. In eget euismod lorem, quis consectetur nibh. Proin id turpis nec diam egestas varius ut non augue. Quisque sapien sem, consequat in suscipit venenatis, vulputate imperdiet nunc. Cras eu fermentum erat. In sem nibh, volutpat sit amet commodo et, tincidunt ac risus. Cras pulvinar elementum justo euismod sagittis. Nulla vel libero nibh.
 
-Of course we can't talk about flour without talking about the <em>dirty</em> word <strong>gluten</strong>. Gluten basically just means how elastic and chewy the cake will be. I won’t go into the science of it, just know that lower protein level means less gluten, which results in a less chewy and elastic cake (like angel food cake) and more protein means more gluten resulting in chewy goodies (like bread). We usually try to have less gluten in cakes  for a light and tender texture. There are other factors that minimise gluten development: less liquid, less mixing strength and duration, added baking soda or powder, more fat, more sugar, less salt, appropriate acidity level, etc. Unless the eater is gluten intolerant, there is no "right" amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.
+Mauris aliquet quam in risus congue, egestas dapibus erat aliquam. Cras non risus ac purus rutrum lobortis vitae posuere urna. Quisque et vestibulum ante. Nunc cursus erat sit amet purus consequat ultrices. Nunc in turpis libero. Integer fermentum velit diam, fringilla porttitor nisl mattis id. Pellentesque a nulla rhoncus, scelerisque purus sed, vestibulum justo. In quis justo et elit eleifend malesuada id consectetur urna. Phasellus vitae purus rhoncus, finibus sapien sed, hendrerit elit. Sed vel magna eget tortor volutpat finibus. Curabitur sapien velit, volutpat sed cursus id, ultrices nec ex. Nullam pretium purus blandit nulla vulputate mattis. Nullam varius lacus ut elit tincidunt scelerisque. Quisque lobortis quam tellus, a laoreet sapien vehicula eu.
 
-Cakes are mostly held up by starch, around 70% of the flour weight. There’s simply too much liquid and sugar in cakes for gluten to form like it does in bread.
-
-Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. <a href="https://www.weekendbakery.com/posts/understanding-flour-types/" target="_blank">Flour around the world </a> are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.
-
-Seven types of common flour are tested to compare the differences in its appearance, taste and smell, texture and moisture level. These are my opinions based on the batches that I made. These are truly a 1:1:1:1 ratio pound cake, as in 1 part sugar, 1 part butter, 1 part egg, 1 part flour. This is not a recipe I would recommend for everyday baking, since it makes a dry and dense cake. But it's a great recipe for me to control everything and observe what changes when I substitute out one ingredient at a time. These tests are based on my own senses, so that although some flour is supposed to make a difference in theory, I report based on my test results, such as cake flour should have a darker crust in theory, but in reality it looked the same as the All Purpose Unbleached flour from my batches. Overall, wholewheat flour and self-rising flour differ the most from the control, which I chose to be all-purpose flour unbleached.
-
-What were you experiences with baking with these flours? Share with us in the comments!
+What were you experiences with baking with different sweeteners? Are there any other sweeteners that you would like to see tested? Share with us in the comments!

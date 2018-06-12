@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2018-05-28T19:28:00+08:00</updated>
+	<updated>2018-06-13T00:08:53+08:00</updated>
 
 	<subtitle></subtitle>
 
@@ -30,94 +30,130 @@
 
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/fats/</id>
-			<title>Fats</title>
-			<link href="http://localhost:4000//baking-tests/fats/" rel="alternate" type="text/html" title="Fats" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
+			<id>http://localhost:4000//baking-tests/egg-cake/</id>
+			<title>Egg</title>
+			<link href="http://localhost:4000//baking-tests/egg-cake/" rel="alternate" type="text/html" title="Egg" />
+			<updated>2018-06-02T08:00:00+08:00</updated>
 
 			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/fats/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/egg-cake/">&lt;p&gt;Sweetener Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque dolor ac arcu porttitor, vel finibus diam ornare. Integer augue tellus, ullamcorper id rutrum et, tristique tempor lacus. Curabitur sed nisl eu nulla dignissim sagittis. Aliquam nec volutpat mauris, non facilisis ante. Nullam ornare ornare orci, vitae hendrerit metus ullamcorper vestibulum. Proin nec lacus maximus, bibendum leo vel, dapibus purus. Integer tincidunt sit amet augue at sodales. Nullam vulputate libero ex, a vestibulum nunc ultricies ut. Integer dignissim sapien lorem, eu ultrices orci pretium in. Vestibulum nec imperdiet augue. Pellentesque laoreet malesuada imperdiet. In porta auctor velit a sodales. Pellentesque gravida tempus massa, non blandit mauris bibendum at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In placerat neque ut turpis maximus ultrices.&lt;/p&gt;
+
+&lt;p&gt;Donec quis tincidunt mi, eget rutrum massa. Ut mi nunc, interdum vitae nulla et, luctus lobortis sapien. Aenean nec aliquet sapien. Aenean sagittis metus nec ex hendrerit, vitae viverra arcu pharetra. Curabitur blandit sagittis maximus. In eget euismod lorem, quis consectetur nibh. Proin id turpis nec diam egestas varius ut non augue. Quisque sapien sem, consequat in suscipit venenatis, vulputate imperdiet nunc. Cras eu fermentum erat. In sem nibh, volutpat sit amet commodo et, tincidunt ac risus. Cras pulvinar elementum justo euismod sagittis. Nulla vel libero nibh.&lt;/p&gt;
+
+&lt;p&gt;Mauris aliquet quam in risus congue, egestas dapibus erat aliquam. Cras non risus ac purus rutrum lobortis vitae posuere urna. Quisque et vestibulum ante. Nunc cursus erat sit amet purus consequat ultrices. Nunc in turpis libero. Integer fermentum velit diam, fringilla porttitor nisl mattis id. Pellentesque a nulla rhoncus, scelerisque purus sed, vestibulum justo. In quis justo et elit eleifend malesuada id consectetur urna. Phasellus vitae purus rhoncus, finibus sapien sed, hendrerit elit. Sed vel magna eget tortor volutpat finibus. Curabitur sapien velit, volutpat sed cursus id, ultrices nec ex. Nullam pretium purus blandit nulla vulputate mattis. Nullam varius lacus ut elit tincidunt scelerisque. Quisque lobortis quam tellus, a laoreet sapien vehicula eu.&lt;/p&gt;
+
+&lt;p&gt;What were you experiences with baking with different sweeteners? Are there any other sweeteners that you would like to see tested? Share with us in the comments!&lt;/p&gt;
 </content>
 
 			
-				<category term="Baking-tests" />
+				<category term="baking-tests cakes" />
 			
 			
 				<category term="post format" />
 			
 
-			<published>2017-07-10T08:00:00+08:00</published>
+			<published>2018-06-02T08:00:00+08:00</published>
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/temperature/</id>
-			<title>Temperature</title>
-			<link href="http://localhost:4000//baking-tests/temperature/" rel="alternate" type="text/html" title="Temperature" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
+			<id>http://localhost:4000//baking-tests/fat-cake/</id>
+			<title>Fat</title>
+			<link href="http://localhost:4000//baking-tests/fat-cake/" rel="alternate" type="text/html" title="Fat" />
+			<updated>2018-06-02T08:00:00+08:00</updated>
 
 			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/temperature/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/fat-cake/">&lt;p&gt;Sweetener Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque dolor ac arcu porttitor, vel finibus diam ornare. Integer augue tellus, ullamcorper id rutrum et, tristique tempor lacus. Curabitur sed nisl eu nulla dignissim sagittis. Aliquam nec volutpat mauris, non facilisis ante. Nullam ornare ornare orci, vitae hendrerit metus ullamcorper vestibulum. Proin nec lacus maximus, bibendum leo vel, dapibus purus. Integer tincidunt sit amet augue at sodales. Nullam vulputate libero ex, a vestibulum nunc ultricies ut. Integer dignissim sapien lorem, eu ultrices orci pretium in. Vestibulum nec imperdiet augue. Pellentesque laoreet malesuada imperdiet. In porta auctor velit a sodales. Pellentesque gravida tempus massa, non blandit mauris bibendum at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In placerat neque ut turpis maximus ultrices.&lt;/p&gt;
+
+&lt;p&gt;Donec quis tincidunt mi, eget rutrum massa. Ut mi nunc, interdum vitae nulla et, luctus lobortis sapien. Aenean nec aliquet sapien. Aenean sagittis metus nec ex hendrerit, vitae viverra arcu pharetra. Curabitur blandit sagittis maximus. In eget euismod lorem, quis consectetur nibh. Proin id turpis nec diam egestas varius ut non augue. Quisque sapien sem, consequat in suscipit venenatis, vulputate imperdiet nunc. Cras eu fermentum erat. In sem nibh, volutpat sit amet commodo et, tincidunt ac risus. Cras pulvinar elementum justo euismod sagittis. Nulla vel libero nibh.&lt;/p&gt;
+
+&lt;p&gt;Mauris aliquet quam in risus congue, egestas dapibus erat aliquam. Cras non risus ac purus rutrum lobortis vitae posuere urna. Quisque et vestibulum ante. Nunc cursus erat sit amet purus consequat ultrices. Nunc in turpis libero. Integer fermentum velit diam, fringilla porttitor nisl mattis id. Pellentesque a nulla rhoncus, scelerisque purus sed, vestibulum justo. In quis justo et elit eleifend malesuada id consectetur urna. Phasellus vitae purus rhoncus, finibus sapien sed, hendrerit elit. Sed vel magna eget tortor volutpat finibus. Curabitur sapien velit, volutpat sed cursus id, ultrices nec ex. Nullam pretium purus blandit nulla vulputate mattis. Nullam varius lacus ut elit tincidunt scelerisque. Quisque lobortis quam tellus, a laoreet sapien vehicula eu.&lt;/p&gt;
+
+&lt;p&gt;What were you experiences with baking with different sweeteners? Are there any other sweeteners that you would like to see tested? Share with us in the comments!&lt;/p&gt;
 </content>
 
 			
-				<category term="Baking-tests" />
+				<category term="baking-tests cakes" />
 			
 			
 				<category term="post format" />
 			
 
-			<published>2017-07-10T08:00:00+08:00</published>
+			<published>2018-06-02T08:00:00+08:00</published>
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/flour-substitutes/</id>
-			<title>Flour substitutes</title>
-			<link href="http://localhost:4000//baking-tests/flour-substitutes/" rel="alternate" type="text/html" title="Flour substitutes" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
+			<id>http://localhost:4000//baking-tests/sweetener-cake/</id>
+			<title>Sweetener</title>
+			<link href="http://localhost:4000//baking-tests/sweetener-cake/" rel="alternate" type="text/html" title="Sweetener" />
+			<updated>2018-06-02T08:00:00+08:00</updated>
 
 			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flour-substitutes/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sweetener-cake/">&lt;p&gt;Sweetener Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque dolor ac arcu porttitor, vel finibus diam ornare. Integer augue tellus, ullamcorper id rutrum et, tristique tempor lacus. Curabitur sed nisl eu nulla dignissim sagittis. Aliquam nec volutpat mauris, non facilisis ante. Nullam ornare ornare orci, vitae hendrerit metus ullamcorper vestibulum. Proin nec lacus maximus, bibendum leo vel, dapibus purus. Integer tincidunt sit amet augue at sodales. Nullam vulputate libero ex, a vestibulum nunc ultricies ut. Integer dignissim sapien lorem, eu ultrices orci pretium in. Vestibulum nec imperdiet augue. Pellentesque laoreet malesuada imperdiet. In porta auctor velit a sodales. Pellentesque gravida tempus massa, non blandit mauris bibendum at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In placerat neque ut turpis maximus ultrices.&lt;/p&gt;
+
+&lt;p&gt;Donec quis tincidunt mi, eget rutrum massa. Ut mi nunc, interdum vitae nulla et, luctus lobortis sapien. Aenean nec aliquet sapien. Aenean sagittis metus nec ex hendrerit, vitae viverra arcu pharetra. Curabitur blandit sagittis maximus. In eget euismod lorem, quis consectetur nibh. Proin id turpis nec diam egestas varius ut non augue. Quisque sapien sem, consequat in suscipit venenatis, vulputate imperdiet nunc. Cras eu fermentum erat. In sem nibh, volutpat sit amet commodo et, tincidunt ac risus. Cras pulvinar elementum justo euismod sagittis. Nulla vel libero nibh.&lt;/p&gt;
+
+&lt;p&gt;Mauris aliquet quam in risus congue, egestas dapibus erat aliquam. Cras non risus ac purus rutrum lobortis vitae posuere urna. Quisque et vestibulum ante. Nunc cursus erat sit amet purus consequat ultrices. Nunc in turpis libero. Integer fermentum velit diam, fringilla porttitor nisl mattis id. Pellentesque a nulla rhoncus, scelerisque purus sed, vestibulum justo. In quis justo et elit eleifend malesuada id consectetur urna. Phasellus vitae purus rhoncus, finibus sapien sed, hendrerit elit. Sed vel magna eget tortor volutpat finibus. Curabitur sapien velit, volutpat sed cursus id, ultrices nec ex. Nullam pretium purus blandit nulla vulputate mattis. Nullam varius lacus ut elit tincidunt scelerisque. Quisque lobortis quam tellus, a laoreet sapien vehicula eu.&lt;/p&gt;
+
+&lt;p&gt;What were you experiences with baking with different sweeteners? Are there any other sweeteners that you would like to see tested? Share with us in the comments!&lt;/p&gt;
 </content>
 
 			
-				<category term="Baking-tests" />
+				<category term="baking-tests cakes" />
 			
 			
 				<category term="post format" />
 			
 
-			<published>2017-07-10T08:00:00+08:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4000//baking-tests/sweeteners/</id>
-			<title>Sweeteners</title>
-			<link href="http://localhost:4000//baking-tests/sweeteners/" rel="alternate" type="text/html" title="Sweeteners" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
-
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/sweeteners/">&lt;p&gt;Eggs are &lt;i&gt;wonderful&lt;/i&gt;! Eggs are considered both tougheners and moisturizers.&lt;/p&gt;
-</content>
-
-			
-				<category term="Baking-tests" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2017-07-10T08:00:00+08:00</published>
+			<published>2018-06-02T08:00:00+08:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000//baking-tests/flour-cake/</id>
 			<title>Flour</title>
 			<link href="http://localhost:4000//baking-tests/flour-cake/" rel="alternate" type="text/html" title="Flour" />
-			<updated>2017-07-10T08:00:00+08:00</updated>
+			<updated>2017-06-01T08:00:00+08:00</updated>
 
 			
 				
@@ -146,7 +182,7 @@
 
 &lt;p&gt;Seven types of common flour are tested to compare the differences in its appearance, taste and smell, texture and moisture level. These are my opinions based on the batches that I made. These are truly a 1:1:1:1 ratio pound cake, as in 1 part sugar, 1 part butter, 1 part egg, 1 part flour. This is not a recipe I would recommend for everyday baking, since it makes a dry and dense cake. But it’s a great recipe for me to control everything and observe what changes when I substitute out one ingredient at a time. These tests are based on my own senses, so that although some flour is supposed to make a difference in theory, I report based on my test results, such as cake flour should have a darker crust in theory, but in reality it looked the same as the All Purpose Unbleached flour from my batches. Overall, wholewheat flour and self-rising flour differ the most from the control, which I chose to be all-purpose flour unbleached.&lt;/p&gt;
 
-&lt;p&gt;What were you experiences with baking with these flours? Share with us in the comments!&lt;/p&gt;
+&lt;p&gt;What were you experiences with baking with these flours? Are there any other flours that you would like to see tested? Share with us in the comments!&lt;/p&gt;
 </content>
 
 			
@@ -156,7 +192,7 @@
 				<category term="post format" />
 			
 
-			<published>2017-07-10T08:00:00+08:00</published>
+			<published>2017-06-01T08:00:00+08:00</published>
 		</entry>
 	
 </feed>
