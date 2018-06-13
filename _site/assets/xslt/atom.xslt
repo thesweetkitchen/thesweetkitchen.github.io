@@ -161,20 +161,6 @@
           
             
             
-              <li><a  href="http://localhost:4000//resources/">resources</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-            
-            
               <li><a  href="http://localhost:4000//about/">about</a></li>
               <li class="divider"></li>
 
@@ -208,12 +194,6 @@
 
       
             <ul class="right">
-              
-
-                    
-
-                
-                
               
 
                     
