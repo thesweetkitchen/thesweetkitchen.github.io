@@ -146,9 +146,10 @@ body.video cite { color: #fff; }
 
 .masthead-title{
   color: $ci-4;
-  background-color: rgba(255, 255, 255 ,0.9);
+  background-color: rgba(255, 255, 255 ,0.6);
   display: table;
-  //padding: 5px 20px 0 20px;
+  padding: 0px 20px 5px 20px;
+  margin: 20px 0 0 0;
 
 }
 
@@ -156,8 +157,8 @@ body.video cite { color: #fff; }
   display: table;
   color: $grey-10;
   font-size: large;
-  background-color: rgba(255, 255, 255 ,0.9);
-  //padding: 5px 20px 5px 20px;
+  background-color: rgba(255, 255, 255 ,0.6);
+  padding: 10px 20px 10px 20px;
 }
 
 

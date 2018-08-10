@@ -1,0 +1,86 @@
+---
+title: Sugar
+subheadline: Cakes
+date: 2018-07-13 00:00:00 Z
+permalink: "/baking-tests/sugar-cake/"
+author: Yin
+categories:
+- baking-tests cakes
+tags:
+- post format
+layout: baking-test-blog
+header:
+  image_fullwidth: /assets/img/baking-tests/sugar/sugar-cake-header.jpg
+  subtitle: Sweet dreams are made of this. Who am I to disagree?
+breadcrumb: true
+meta_information: true
+teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.
+ingredients:
+  - item: White sugar
+    img: /assets/img/baking-tests/sugar/white-accordion-collapse.jpg
+    img_product: /assets/img/baking-tests/sugar/white.jpg
+    description: <p>This is the most popular option and what we usually think of when we hear <em>sugar</em>. The white sugar in North America mostly comes from cane, and occasionally beet. The results are mostly similar between the two. We are all familiar with its taste, it’s neutral and doesn’t have any strong off-flavours or aftertaste. </p><p>Each grain of sugar is about 0.3-0.5mm in diameter. If the grain is any larger such as pearl sugar and sanding sugar, it’s usually used for decoration and sprinkles only and not in cakes.</p>
+    tips:
+    - Store away from sources of heat like the stove
+    - Store in airtight container
+    - Store with food-grade silica gel packets
+  - item: Caster sugar
+    img: /assets/img/baking-tests/sugar/caster-accordion-collapse.jpg
+    img_product: /assets/img/baking-tests/sugar/caster.jpg
+    description: <<p>This is a finer sugar and is mostly used by bakers. It dissolves easily because it is a smaller grain and is great for things like meringue that needs the sugar to melt. Any undissolved sugar may create white dots on the surface of the cake since sugar attracts water, making the immediate area around the sugar grain more moist. It does have a tendency to clump overtime, so make sure you store it away from heat and moisture and break them apart to ensure it is mixed in well in the batter.</p><p>Each grain is about 0.01-0.3mm in diameter. </p>
+    tips:
+    - You can make caster sugar from granulated sugar by pulsing it in your food processor until the desired size
+  - item: Powdered sugar
+    img: /assets/img/baking-tests/sugar/powdered-accordion-collapse.jpg
+    img_product: /assets/img/baking-tests/sugar/powdered.jpg
+    description: <p>This is a finer sugar and is mostly used by bakers. It dissolves easily because it is a smaller grain and is great for things like meringue that needs the sugar to melt. Any undissolved sugar may create white dots on the surface of the cake since sugar attracts water, making the immediate area around the sugar grain more moist. It does have a tendency to clump overtime, so make sure you store it away from heat and moisture and break them apart to ensure it is mixed in well in the batter.</p><p>Each grain is about 0.01-0.3mm in diameter. </p>
+    tips:
+    - You can make powdered sugar from granulated sugar by pulsing it in your food processor until the desired size and adding 3% of cornstarch in weight to it.
+  - item: Brown sugar
+    img: /assets/img/baking-tests/sugar/brown-accordion-collapse.jpg
+    img_product: /assets/img/baking-tests/sugar/brown.jpg
+    description: <p> Brown sugar is white sugar with molasses added in. Raw sugar is the same end product as brown sugar, but the molasses was there originally and was just never filtered out i the first place.There are several types of brown sugars, differing mostly by the amount of molasses it contains.</p><p><strong>Light:</strong> Contains about 3.5% molasses. Great for adding a hint of flavour to your cakes.<br /><strong>Dark:</strong> Contains about 6.5% molasses. Imparts a deep robust flavour<br /><strong>Demerara</strong> A raw sugar with large, sticky, and light coloured crystals. It’s usually not used for baking, and is often used as sweetener for coffees or decoration for baked goods. I only included Demerara the test because it is a large crystal and I can see the difference  (also I already have it in my kitchen).<br /><strong>Turbinado:</strong> Another raw sugar. This one is large and light, but not as sticky as demerara.<br /><strong>Muscovado:</strong> Small, sticky and dark crystals that is strong in flavour.Brown sugar is soft and retains moisture in cakes even better than white sugar. The cake will have a darker brown colour because of the molasses in the sugar, giving it an even deeper and more robust flavour.</p><p>Unlike white sugar, we want to refrain the sugar’s moisture from being lost during storage. </p>
+    tips:
+    - Store with a slice of apple or bread and change out occasionally
+acknowledgements:
+  - On Food and Cooking
+  - Ratio
+  - Refined Cane and Beet Sugar
+  - Dietary Guidelines for Americans 2015-2020
+  - What Should My Daily Intake of Calories Be?
+  - Fine Cooking - Light vs Dark Brown Sugar
+gallery_enlarge: true
+gallery:
+  - image_url: /assets/img/baking-tests/eggs/egg-white.jpg
+    caption: Starting Page with huge One Logo
+comments: true
+image_sliders: sugar_cake_slider
+image_sliders_load_all: true
+---
+<strong>What is it and what does it do?</strong>
+
+Who doesn't love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.
+
+In terms of flavour, sugar helps with adding a caramel and complex flavour with browning reactions when it’s heated up. It’s also great for balancing sour and bitter flavours and make other aromas in the recipe even stronger.
+
+When butter and sugar are mixed together, it’s called creaming. During the process, the sugar’s microscopic sharp edges cut air into the mixture and the butter traps it. That is why the mixture doubles in volume and is much lighter in colour after mixing. These air bubbles are what help a cake rise as its expends while it’s heated up.
+
+Sugar tenderises a cake by disrupting aspects that build structure such as gluten from flour and eggs coagulation.
+
+Sugar also retains moisture in baked goods and keeps it fresh for longer.
+
+This is why replacing sugar in a cake isn’t that simple. When taking out sugar, it’s not merely taking out the sweetness. It is also taking out the moisture, the tenderness, caramelization flavour, shortens the shelf life, etc.
+
+Although sugars are dry, they are sometimes added with the wet ingredients in baking for a less chewy cake.
+
+<strong>Health implications</strong>
+
+USDA estimated that Americans consumed 40.5lbs/18.4kg of refined white sugar per capital in 2016. There are many different names for different sweeteners and it’s difficult to identify when it is listed as ingredients in processed foods. Some names to look out for to includes sucrose, dextrose, levulose, fructose, corn syrup, high-fructose corn syrup, etc. For people who are diabetic, sweeteners need to be carefully controlled and used according to directions from their physician.
+
+<strong>What’s tested</strong>
+
+9 type of common sweeteners are tested this round to see what difference will it make.
+
+I also tested a version where no sugar is added, so I can see exactly what sugar adds to the equation. This test lost a lot of butter in the process and ended up a lot smaller in size (Between 10-16%). It’s intriguing to see how one ingredient that is usually associated with sweetness changed so much in the final cake.
+
+Which is your favourite sugar? I’m in the process of making a post about liquid sweetners, keep an eye out for those! Are there any other sweeteners that you would like to be tested? Share with us in the comments!

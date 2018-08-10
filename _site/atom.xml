@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2018-06-13T10:57:51+08:00</updated>
+	<updated>2018-08-10T12:38:36+08:00</updated>
 
 	<subtitle></subtitle>
 
@@ -28,6 +28,66 @@
 
 	<generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator>
 
+	
+		<entry>
+			<id>http://localhost:4000//baking-tests/sugar-cake/</id>
+			<title>Sugar</title>
+			<link href="http://localhost:4000//baking-tests/sugar-cake/" rel="alternate" type="text/html" title="Sugar" />
+			<updated>2018-07-13T08:00:00+08:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
+			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sugar-cake/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Who doesn’t love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.&lt;/p&gt;
+
+&lt;p&gt;In terms of flavour, sugar helps with adding a caramel and complex flavour with browning reactions when it’s heated up. It’s also great for balancing sour and bitter flavours and make other aromas in the recipe even stronger.&lt;/p&gt;
+
+&lt;p&gt;When butter and sugar are mixed together, it’s called creaming. During the process, the sugar’s microscopic sharp edges cut air into the mixture and the butter traps it. That is why the mixture doubles in volume and is much lighter in colour after mixing. These air bubbles are what help a cake rise as its expends while it’s heated up.&lt;/p&gt;
+
+&lt;p&gt;Sugar tenderises a cake by disrupting aspects that build structure such as gluten from flour and eggs coagulation.&lt;/p&gt;
+
+&lt;p&gt;Sugar also retains moisture in baked goods and keeps it fresh for longer.&lt;/p&gt;
+
+&lt;p&gt;This is why replacing sugar in a cake isn’t that simple. When taking out sugar, it’s not merely taking out the sweetness. It is also taking out the moisture, the tenderness, caramelization flavour, shortens the shelf life, etc.&lt;/p&gt;
+
+&lt;p&gt;Although sugars are dry, they are sometimes added with the wet ingredients in baking for a less chewy cake.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;USDA estimated that Americans consumed 40.5lbs/18.4kg of refined white sugar per capital in 2016. There are many different names for different sweeteners and it’s difficult to identify when it is listed as ingredients in processed foods. Some names to look out for to includes sucrose, dextrose, levulose, fructose, corn syrup, high-fructose corn syrup, etc. For people who are diabetic, sweeteners need to be carefully controlled and used according to directions from their physician.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;9 type of common sweeteners are tested this round to see what difference will it make.&lt;/p&gt;
+
+&lt;p&gt;I also tested a version where no sugar is added, so I can see exactly what sugar adds to the equation. This test lost a lot of butter in the process and ended up a lot smaller in size (Between 10-16%). It’s intriguing to see how one ingredient that is usually associated with sweetness changed so much in the final cake.&lt;/p&gt;
+
+&lt;p&gt;Which is your favourite sugar? I’m in the process of making a post about liquid sweetners, keep an eye out for those! Are there any other sweeteners that you would like to be tested? Share with us in the comments!&lt;/p&gt;
+</content>
+
+			
+				<category term="baking-tests cakes" />
+			
+			
+				<category term="post format" />
+			
+
+			<published>2018-07-13T08:00:00+08:00</published>
+		</entry>
 	
 		<entry>
 			<id>http://localhost:4000//baking-tests/egg-cake/</id>
@@ -110,46 +170,6 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/sweetener-cake/</id>
-			<title>Sweetener</title>
-			<link href="http://localhost:4000//baking-tests/sweetener-cake/" rel="alternate" type="text/html" title="Sweetener" />
-			<updated>2018-06-02T08:00:00+08:00</updated>
-
-			
-				
-				<author>
-					
-						<name>Yin</name>
-					
-					
-						<email>yin@thesweet.kitchen</email>
-					
-					
-						<uri>/about/</uri>
-					
-				</author>
-			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/sweetener-cake/">&lt;p&gt;Sweetener Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque dolor ac arcu porttitor, vel finibus diam ornare. Integer augue tellus, ullamcorper id rutrum et, tristique tempor lacus. Curabitur sed nisl eu nulla dignissim sagittis. Aliquam nec volutpat mauris, non facilisis ante. Nullam ornare ornare orci, vitae hendrerit metus ullamcorper vestibulum. Proin nec lacus maximus, bibendum leo vel, dapibus purus. Integer tincidunt sit amet augue at sodales. Nullam vulputate libero ex, a vestibulum nunc ultricies ut. Integer dignissim sapien lorem, eu ultrices orci pretium in. Vestibulum nec imperdiet augue. Pellentesque laoreet malesuada imperdiet. In porta auctor velit a sodales. Pellentesque gravida tempus massa, non blandit mauris bibendum at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In placerat neque ut turpis maximus ultrices.&lt;/p&gt;
-
-&lt;p&gt;Donec quis tincidunt mi, eget rutrum massa. Ut mi nunc, interdum vitae nulla et, luctus lobortis sapien. Aenean nec aliquet sapien. Aenean sagittis metus nec ex hendrerit, vitae viverra arcu pharetra. Curabitur blandit sagittis maximus. In eget euismod lorem, quis consectetur nibh. Proin id turpis nec diam egestas varius ut non augue. Quisque sapien sem, consequat in suscipit venenatis, vulputate imperdiet nunc. Cras eu fermentum erat. In sem nibh, volutpat sit amet commodo et, tincidunt ac risus. Cras pulvinar elementum justo euismod sagittis. Nulla vel libero nibh.&lt;/p&gt;
-
-&lt;p&gt;Mauris aliquet quam in risus congue, egestas dapibus erat aliquam. Cras non risus ac purus rutrum lobortis vitae posuere urna. Quisque et vestibulum ante. Nunc cursus erat sit amet purus consequat ultrices. Nunc in turpis libero. Integer fermentum velit diam, fringilla porttitor nisl mattis id. Pellentesque a nulla rhoncus, scelerisque purus sed, vestibulum justo. In quis justo et elit eleifend malesuada id consectetur urna. Phasellus vitae purus rhoncus, finibus sapien sed, hendrerit elit. Sed vel magna eget tortor volutpat finibus. Curabitur sapien velit, volutpat sed cursus id, ultrices nec ex. Nullam pretium purus blandit nulla vulputate mattis. Nullam varius lacus ut elit tincidunt scelerisque. Quisque lobortis quam tellus, a laoreet sapien vehicula eu.&lt;/p&gt;
-
-&lt;p&gt;What were you experiences with baking with different sweeteners? Are there any other sweeteners that you would like to see tested? Share with us in the comments!&lt;/p&gt;
-</content>
-
-			
-				<category term="baking-tests cakes" />
-			
-			
-				<category term="post format" />
-			
-
-			<published>2018-06-02T08:00:00+08:00</published>
-		</entry>
-	
-		<entry>
 			<id>http://localhost:4000//baking-tests/flour-cake/</id>
 			<title>Flour</title>
 			<link href="http://localhost:4000//baking-tests/flour-cake/" rel="alternate" type="text/html" title="Flour" />
@@ -170,13 +190,21 @@
 				</author>
 			
 			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flour-cake/">&lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/flour-cake/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
 
 &lt;p&gt;Flour is a main part of what gives our cakes structure and it determines how your cake holds up, how moist it is, how it tastes, how it looks, its nutritional value. Most of the flour that we use for baking comes from wheat.&lt;/p&gt;
 
-&lt;p&gt;Of course we can’t talk about flour without talking about the &lt;em&gt;dirty&lt;/em&gt; word &lt;strong&gt;gluten&lt;/strong&gt;. Gluten basically just means how elastic and chewy the cake will be. I won’t go into the science of it, just know that lower protein level means less gluten, which results in a less chewy and elastic cake (like angel food cake) and more protein means more gluten resulting in chewy goodies (like bread). We usually try to have less gluten in cakes  for a light and tender texture. There are other factors that minimise gluten development: less liquid, less mixing strength and duration, added baking soda or powder, more fat, more sugar, less salt, appropriate acidity level, etc. Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
+&lt;p&gt;Of course we can’t talk about flour without talking about the &lt;em&gt;dirty&lt;/em&gt; word &lt;strong&gt;gluten&lt;/strong&gt;. Gluten basically just means how elastic and chewy the cake will be. I won’t go into the science of it, just know that lower protein level means less gluten, which results in a less chewy and elastic cake (like angel food cake) and more protein means more gluten resulting in chewy goodies (like bread). We usually try to have less gluten in cakes  for a light and tender texture. There are other factors that minimise gluten development: less liquid, less mixing strength and duration, added baking soda or powder, more fat, more sugar, less salt, appropriate acidity level, etc.&lt;/p&gt;
 
 &lt;p&gt;Cakes are mostly held up by starch, around 70% of the flour weight. There’s simply too much liquid and sugar in cakes for gluten to form like it does in bread.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. &lt;a href=&quot;https://www.weekendbakery.com/posts/understanding-flour-types/&quot; target=&quot;_blank&quot;&gt;Flour around the world &lt;/a&gt; are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.&lt;/p&gt;
 

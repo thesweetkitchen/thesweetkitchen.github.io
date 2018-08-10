@@ -5684,14 +5684,17 @@ body.video cite {
 
 .masthead-title {
   color: #ff8a2b;
-  background-color: rgba(255, 255, 255, 0.9);
-  display: table; }
+  background-color: rgba(255, 255, 255, 0.6);
+  display: table;
+  padding: 0px 20px 5px 20px;
+  margin: 20px 0 0 0; }
 
 .masthead-subtitle {
   display: table;
   color: #575757;
   font-size: large;
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 20px 10px 20px; }
 
 /* Masthead › small-only
 ------------------------------------------------------------------- */
