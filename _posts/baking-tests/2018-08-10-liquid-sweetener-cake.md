@@ -1,8 +1,8 @@
 ---
-title: Sugar
+title: Liquid sweetener
 subheadline: Cakes
-date: 2018-07-13 00:00:00 Z
-permalink: "/baking-tests/sugar-cake/"
+date: 2018-08-10 00:00:00 Z
+permalink: "/baking-tests/liquid-sweetener-cake/"
 author: Yin
 categories:
 - baking-tests cakes
@@ -11,7 +11,7 @@ tags:
 layout: baking-test-blog
 header:
   image_fullwidth: /assets/img/baking-tests/sugar/sugar-cake-header.jpg
-  subtitle: Sweet dreams are made of this. Who am I to disagree?
+  subtitle: Basically liquid gold
 breadcrumb: true
 meta_information: true
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.
