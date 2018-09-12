@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2018-08-13T14:05:38+08:00</updated>
+	<updated>2018-09-13T00:23:24+08:00</updated>
 
 	<subtitle></subtitle>
 
@@ -30,9 +30,9 @@
 
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/liquid-sweetener-cake/</id>
+			<id>http://localhost:4000//baking-tests/liquid-sweetener/</id>
 			<title>Liquid sweetener</title>
-			<link href="http://localhost:4000//baking-tests/liquid-sweetener-cake/" rel="alternate" type="text/html" title="Liquid sweetener" />
+			<link href="http://localhost:4000//baking-tests/liquid-sweetener/" rel="alternate" type="text/html" title="Liquid sweetener" />
 			<updated>2018-08-10T08:00:00+08:00</updated>
 
 			
@@ -49,34 +49,27 @@
 					
 				</author>
 			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/liquid-sweetener-cake/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000//baking-tests/liquid-sweetener/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;
+People use liquid sweeteners instead of sugar for many reasons. Sometimes it’s for a special flavour like honey or maple syrup. Sometimes it’s to increase moisture.&lt;/p&gt;
 
-&lt;p&gt;Who doesn’t love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.&lt;/p&gt;
+&lt;p&gt;Compare the control (white sugar) with any of the liquid sweeteners and we can see the difference on why sugar is so important in many recipes. It makes more of an impact than simply making the cake sweet. It changes the colour, the texture, the flavour, the aroma, the size, etc.&lt;/p&gt;
 
-&lt;p&gt;In terms of flavour, sugar helps with adding a caramel and complex flavour with browning reactions when it’s heated up. It’s also great for balancing sour and bitter flavours and make other aromas in the recipe even stronger.&lt;/p&gt;
+&lt;p&gt;It’s obvious that across the board, the cakes are flat, sunken, and dense. Even the sides is pinched like an hourglass shape. This is because there’s no solid sugar granules to help cut air into the butter, which helps a cake rise. So if you are substituting sugar with a liquid sweetener in a recipe, you can try adding baking powder or soda to help the cake rise. You can also consider only replacing part of the sugar, so the sugar can still help leaven, but you will also get the flavours and benefits of a liquid sweetener.&lt;/p&gt;
 
-&lt;p&gt;When butter and sugar are mixed together, it’s called creaming. During the process, the sugar’s microscopic sharp edges cut air into the mixture and the butter traps it. That is why the mixture doubles in volume and is much lighter in colour after mixing. These air bubbles are what help a cake rise as its expends while it’s heated up.&lt;/p&gt;
+&lt;p&gt;It is helpful to have a mix of dry sugar and liquid sweetener to get the best of both worlds. Some dry sugar is required to cream the cake or baking powder/baking soda added to make a light cake.&lt;/p&gt;
 
-&lt;p&gt;Sugar tenderises a cake by disrupting aspects that build structure such as gluten from flour and eggs coagulation.&lt;/p&gt;
+&lt;p&gt;All the cakes are still visibly wet in the middle when the cake with white sugar was done. It does take longer to evaporate off the liquid. So understandably, the liquid sweetener cakes stayed moist for 2 more days than the control.&lt;/p&gt;
 
-&lt;p&gt;Sugar also retains moisture in baked goods and keeps it fresh for longer.&lt;/p&gt;
+&lt;p&gt;If you are using it as a substitution for a recipe that calls for dry sugar, remember to decrease the liquid accordingly. Generally it’s easier to substitute dry for dry and liquid for liquid. But with some trials and testing it’s still fairly easy to do. General guideline is for 1 part of liquid sweetener used, remove 0.25 part liquid from recipe. And let’s be honest, the “tests” and “mistakes” I make are just excuses for me to consume one more batch.&lt;/p&gt;
 
-&lt;p&gt;This is why replacing sugar in a cake isn’t that simple. When taking out sugar, it’s not merely taking out the sweetness. It is also taking out the moisture, the tenderness, caramelization flavour, shortens the shelf life, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;
+Some of these items are touted as healthier options than sugar. While in some respects it’s true, such as honey having nutrients that sugar doesn’t, they still contain a high GI index and calories.&lt;/p&gt;
 
-&lt;p&gt;Although sugars are dry, they are sometimes added with the wet ingredients in baking for a less chewy cake.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;
+Five common household liquid sweeteners were tested. Realistically most recipes using liquid sweeteners still uses some sugar, but for the sake of this test I wanted to see only the effects of the liquid.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;USDA estimated that Americans consumed 40.5lbs/18.4kg of refined white sugar per capital in 2016. There are many different names for different sweeteners and it’s difficult to identify when it is listed as ingredients in processed foods. Some names to look out for to includes sucrose, dextrose, levulose, fructose, corn syrup, high-fructose corn syrup, etc. For people who are diabetic, sweeteners need to be carefully controlled and used according to directions from their physician.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;9 type of common sweeteners are tested this round to see what difference will it make.&lt;/p&gt;
-
-&lt;p&gt;I also tested a version where no sugar is added, so I can see exactly what sugar adds to the equation. This test lost a lot of butter in the process and ended up a lot smaller in size (Between 10-16%). It’s intriguing to see how one ingredient that is usually associated with sweetness changed so much in the final cake.&lt;/p&gt;
-
-&lt;p&gt;Which is your favourite sugar? I’m in the process of making a post about liquid sweetners, keep an eye out for those! Are there any other sweeteners that you would like to be tested? Share with us in the comments!&lt;/p&gt;
+&lt;p&gt;I skipped agave in the hopes that I can make a sugar substitute for health reasons post in the future. Sign up to my newsletter so you will when that article is up!&lt;/p&gt;
 </content>
 
 			
@@ -90,9 +83,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/sugar-cake/</id>
+			<id>http://localhost:4000//baking-tests/sugar/</id>
 			<title>Sugar</title>
-			<link href="http://localhost:4000//baking-tests/sugar-cake/" rel="alternate" type="text/html" title="Sugar" />
+			<link href="http://localhost:4000//baking-tests/sugar/" rel="alternate" type="text/html" title="Sugar" />
 			<updated>2018-07-13T08:00:00+08:00</updated>
 
 			
@@ -109,8 +102,8 @@
 					
 				</author>
 			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/sugar-cake/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sugar/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Who doesn’t love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.&lt;/p&gt;
 
@@ -150,9 +143,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000//baking-tests/flour-cake/</id>
+			<id>http://localhost:4000//baking-tests/flour/</id>
 			<title>Flour</title>
-			<link href="http://localhost:4000//baking-tests/flour-cake/" rel="alternate" type="text/html" title="Flour" />
+			<link href="http://localhost:4000//baking-tests/flour/" rel="alternate" type="text/html" title="Flour" />
 			<updated>2017-06-01T08:00:00+08:00</updated>
 
 			
@@ -169,8 +162,8 @@
 					
 				</author>
 			
-			<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi purus, vitae scelerisque urna varius ut. Cras eget pulvinar lacus. Vestibulum efficitur nisl eu tempus fermentum. Donec malesuada dignissim tellus, sit amet auctor mauris ultrices id.</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flour-cake/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
+			<summary>Teaser goes here</summary>
+			<content type="html" xml:base="http://localhost:4000//baking-tests/flour/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
 

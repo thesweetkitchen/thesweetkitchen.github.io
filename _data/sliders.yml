@@ -6,15 +6,15 @@
     - src: /assets/img/baking-tests/flour/flour-hp.jpg
       title: Flour
       alt: Simple not simple. Understand how using different types of flour can give you the desired results.
-      href: /baking-tests/flour-cake/
+      href: /baking-tests/flour/
     - src: /assets/img/baking-tests/sugar/sugar-hp.jpg
       title: Sugar
       alt: Have a sweet dream
-      href: /baking-tests/sugar-cake/
-    - src: /assets/img/baking-tests/flour/flour-hp.jpg
+      href: /baking-tests/sugar/
+    - src: /assets/img/baking-tests/liquid-sweetener/liquid-sweetener-hp.jpg
       title: Liquid sweetener
       alt: Basically liquid gold
-      href: /baking-tests/liquid-sweetener-cake/
+      href: /baking-tests/liquid-sweetener/
   settings:
     height: "'auto'"
     maxHeight: 700
@@ -44,6 +44,21 @@
     - src: /assets/img/baking-tests/sugar/texture-sugar-cake.jpg
       title:
     - src: /assets/img/baking-tests/sugar/moisture-sugar-cake.jpg
+      title:
+  settings:
+    height: "'auto'"
+    maxHeight: 700
+- selector: liquid_sweetener_cake_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/img/baking-tests/liquid-sweetener/appearance-liquid-sweetener-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/liquid-sweetener/taste-smell-liquid-sweetener-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/liquid-sweetener/texture-liquid-sweetener-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/liquid-sweetener/moisture-liquid-sweetener-cake.jpg
       title:
   settings:
     height: "'auto'"
