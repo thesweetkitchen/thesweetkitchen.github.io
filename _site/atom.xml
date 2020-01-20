@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000//</id>
 	<title>The Sweet Kitchen</title>
-	<updated>2018-09-13T00:23:24+08:00</updated>
+	<updated>2019-12-28T19:18:28+08:00</updated>
 
 	<subtitle></subtitle>
 
@@ -30,6 +30,59 @@
 
 	
 		<entry>
+			<id>http://localhost:4000//baking-tests/fat/</id>
+			<title>Fat</title>
+			<link href="http://localhost:4000//baking-tests/fat/" rel="alternate" type="text/html" title="Fat" />
+			<updated>2018-12-28T08:00:00+08:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Yin</name>
+					
+					
+						<email>yin@thesweet.kitchen</email>
+					
+					
+						<uri>/about/</uri>
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000//baking-tests/fat/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;br /&gt;
+People use liquid sweeteners instead of sugar for many reasons. Sometimes it’s for a special flavour like honey or maple syrup. Sometimes it’s to increase moisture.&lt;/p&gt;
+
+&lt;p&gt;Compare the control (white sugar) with any of the liquid sweeteners and we can see the difference on why sugar is so important in many recipes. It makes more of an impact than simply making the cake sweet. It changes the colour, the texture, the flavour, the aroma, the size, etc.&lt;/p&gt;
+
+&lt;p&gt;It’s obvious that across the board, the cakes are flat, sunken, and dense. Even the sides is pinched like an hourglass shape. This is because there’s no solid sugar granules to help cut air into the butter, which helps a cake rise. So if you are substituting sugar with a liquid sweetener in a recipe, you can try adding baking powder or soda to help the cake rise. You can also consider only replacing part of the sugar, so the sugar can still help leaven, but you will also get the flavours and benefits of a liquid sweetener.&lt;/p&gt;
+
+&lt;p&gt;It is helpful to have a mix of dry sugar and liquid sweetener to get the best of both worlds. Some dry sugar is required to cream the cake or baking powder/baking soda added to make a light cake.&lt;/p&gt;
+
+&lt;p&gt;All the cakes are still visibly wet in the middle when the cake with white sugar was done. It does take longer to evaporate off the liquid. So understandably, the liquid sweetener cakes stayed moist for 2 more days than the control.&lt;/p&gt;
+
+&lt;p&gt;If you are using it as a substitution for a recipe that calls for dry sugar, remember to decrease the liquid accordingly. Generally it’s easier to substitute dry for dry and liquid for liquid. But with some trials and testing it’s still fairly easy to do. General guideline is for 1 part of liquid sweetener used, remove 0.25 part liquid from recipe. And let’s be honest, the “tests” and “mistakes” I make are just excuses for me to consume one more batch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;br /&gt;
+Fat has a bad rep when it comes to health.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;br /&gt;
+Five common household liquid sweeteners were tested. Realistically most recipes using liquid sweeteners still uses some sugar, but for the sake of this test I wanted to see only the effects of the liquid.&lt;/p&gt;
+
+&lt;p&gt;I skipped agave in the hopes that I can make a sugar substitute for health reasons post in the future. Sign up to my newsletter so you will when that article is up!&lt;/p&gt;
+</content>
+
+			
+				<category term="baking-tests cakes" />
+			
+			
+				<category term="post format" />
+			
+
+			<published>2018-12-28T08:00:00+08:00</published>
+		</entry>
+	
+		<entry>
 			<id>http://localhost:4000//baking-tests/liquid-sweetener/</id>
 			<title>Liquid sweetener</title>
 			<link href="http://localhost:4000//baking-tests/liquid-sweetener/" rel="alternate" type="text/html" title="Liquid sweetener" />
@@ -50,7 +103,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/liquid-sweetener/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/liquid-sweetener/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;br /&gt;
 People use liquid sweeteners instead of sugar for many reasons. Sometimes it’s for a special flavour like honey or maple syrup. Sometimes it’s to increase moisture.&lt;/p&gt;
 
 &lt;p&gt;Compare the control (white sugar) with any of the liquid sweeteners and we can see the difference on why sugar is so important in many recipes. It makes more of an impact than simply making the cake sweet. It changes the colour, the texture, the flavour, the aroma, the size, etc.&lt;/p&gt;
@@ -63,10 +116,10 @@ People use liquid sweeteners instead of sugar for many reasons. Sometimes it’s
 
 &lt;p&gt;If you are using it as a substitution for a recipe that calls for dry sugar, remember to decrease the liquid accordingly. Generally it’s easier to substitute dry for dry and liquid for liquid. But with some trials and testing it’s still fairly easy to do. General guideline is for 1 part of liquid sweetener used, remove 0.25 part liquid from recipe. And let’s be honest, the “tests” and “mistakes” I make are just excuses for me to consume one more batch.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;br /&gt;
 Some of these items are touted as healthier options than sugar. While in some respects it’s true, such as honey having nutrients that sugar doesn’t, they still contain a high GI index and calories.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;br /&gt;
 Five common household liquid sweeteners were tested. Realistically most recipes using liquid sweeteners still uses some sugar, but for the sake of this test I wanted to see only the effects of the liquid.&lt;/p&gt;
 
 &lt;p&gt;I skipped agave in the hopes that I can make a sugar substitute for health reasons post in the future. Sign up to my newsletter so you will when that article is up!&lt;/p&gt;
@@ -103,9 +156,8 @@ Five common household liquid sweeteners were tested. Realistically most recipes 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/sugar/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Who doesn’t love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/sugar/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;br /&gt;
+Who doesn’t love sweetness? It’s the reason why desserts are loved around the world. Sugar is more crucial than simply adding sweetness. It also affects a cake’s colour and browning, can be used as decorations.&lt;/p&gt;
 
 &lt;p&gt;In terms of flavour, sugar helps with adding a caramel and complex flavour with browning reactions when it’s heated up. It’s also great for balancing sour and bitter flavours and make other aromas in the recipe even stronger.&lt;/p&gt;
 
@@ -119,13 +171,11 @@ Five common household liquid sweeteners were tested. Realistically most recipes 
 
 &lt;p&gt;Although sugars are dry, they are sometimes added with the wet ingredients in baking for a less chewy cake.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;br /&gt;
+USDA estimated that Americans consumed 40.5lbs/18.4kg of refined white sugar per capital in 2016. There are many different names for different sweeteners and it’s difficult to identify when it is listed as ingredients in processed foods. Some names to look out for to includes sucrose, dextrose, levulose, fructose, corn syrup, high-fructose corn syrup, etc. For people who are diabetic, sweeteners need to be carefully controlled and used according to directions from their physician.&lt;/p&gt;
 
-&lt;p&gt;USDA estimated that Americans consumed 40.5lbs/18.4kg of refined white sugar per capital in 2016. There are many different names for different sweeteners and it’s difficult to identify when it is listed as ingredients in processed foods. Some names to look out for to includes sucrose, dextrose, levulose, fructose, corn syrup, high-fructose corn syrup, etc. For people who are diabetic, sweeteners need to be carefully controlled and used according to directions from their physician.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;9 type of common sweeteners are tested this round to see what difference will it make.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;br /&gt;
+9 type of common sweeteners are tested this round to see what difference will it make.&lt;/p&gt;
 
 &lt;p&gt;I also tested a version where no sugar is added, so I can see exactly what sugar adds to the equation. This test lost a lot of butter in the process and ended up a lot smaller in size (Between 10-16%). It’s intriguing to see how one ingredient that is usually associated with sweetness changed so much in the final cake.&lt;/p&gt;
 
@@ -163,9 +213,8 @@ Five common household liquid sweeteners were tested. Realistically most recipes 
 				</author>
 			
 			<summary>Teaser goes here</summary>
-			<content type="html" xml:base="http://localhost:4000//baking-tests/flour/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000//baking-tests/flour/">&lt;p&gt;&lt;strong&gt;What is it and what does it do?&lt;/strong&gt;&lt;br /&gt;
+Flours are the basic building blocks of cakes. This seemingly plain powder allows bakers to create virtually limitless goodies. But what how does it actually affect our baked goods and how do we choose?&lt;/p&gt;
 
 &lt;p&gt;Flour is a main part of what gives our cakes structure and it determines how your cake holds up, how moist it is, how it tastes, how it looks, its nutritional value. Most of the flour that we use for baking comes from wheat.&lt;/p&gt;
 
@@ -173,13 +222,11 @@ Five common household liquid sweeteners were tested. Realistically most recipes 
 
 &lt;p&gt;Cakes are mostly held up by starch, around 70% of the flour weight. There’s simply too much liquid and sugar in cakes for gluten to form like it does in bread.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Health implications&lt;/strong&gt;&lt;br /&gt;
+Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
 
-&lt;p&gt;Unless the eater is gluten intolerant, there is no “right” amount of gluten. The appropriate amount of gluten depends on the item you are baking and the texture that you want.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. &lt;a href=&quot;https://www.weekendbakery.com/posts/understanding-flour-types/&quot; target=&quot;_blank&quot;&gt;Flour around the world &lt;/a&gt; are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What’s tested&lt;/strong&gt;&lt;br /&gt;
+Flour sold in North American supermarkets are usually named according to its function, such as all purpose flour, cake flour, bread flour, etc. &lt;a href=&quot;https://www.weekendbakery.com/posts/understanding-flour-types/&quot; target=&quot;_blank&quot;&gt;Flour around the world &lt;/a&gt; are manufactured and categorised differently.Some of the flour tested are not meant for cakes and you would rarely find any cake recipes using it, but curiosity just got me to try them anyways and see what would happen.&lt;/p&gt;
 
 &lt;p&gt;Seven types of common flour are tested to compare the differences in its appearance, taste and smell, texture and moisture level. These are my opinions based on the batches that I made. These are truly a 1:1:1:1 ratio pound cake, as in 1 part sugar, 1 part butter, 1 part egg, 1 part flour. This is not a recipe I would recommend for everyday baking, since it makes a dry and dense cake. But it’s a great recipe for me to control everything and observe what changes when I substitute out one ingredient at a time. These tests are based on my own senses, so that although some flour is supposed to make a difference in theory, I report based on my test results, such as cake flour should have a darker crust in theory, but in reality it looked the same as the All Purpose Unbleached flour from my batches. Overall, wholewheat flour and self-rising flour differ the most from the control, which I chose to be all-purpose flour unbleached.&lt;/p&gt;
 

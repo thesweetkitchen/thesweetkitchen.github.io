@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Banana"
+    },
+    {
+      "id": 3,
+      "name": "Cantaloupe"
+    },
+    {
+      "id": 4,
+      "name": "Dragonfruit"
+    },
+    {
+      "id": 5,
+      "name": "Egg"
+    },
+    {
+      "id": 6,
+      "name": "Fig"
+    },
+    {
+      "id": 7,
+      "name": "Guava"
+    },
+    {
+      "id": 8,
+      "name": "Hawthorn"
+    },
+    {
+      "id": 9,
+      "name": "Grape"
+    },
+    {
+      "id": 10,
+      "name": "Jackfruit"
+    }
+  ],
+  "links": [
+
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+
+    {
+      "source": 1,
+      "target": 5
+    },
+            {
+      "source": 1,
+      "target": 6
+    }
+    ,
+
+    {
+      "source": 1,
+      "target": 7
+    },
+     {
+      "source": 1,
+      "target": 8
+    }
+    ,
+    {
+      "source": 1,
+      "target": 9
+    }
+    ,
+
+    {
+      "source": 1,
+      "target": 10
+    }
+  ]
+}

@@ -9,12 +9,12 @@ format: frontpage
 
 </div><!-- /#header-home -->
 
-
+<!--
 {% comment %}
 *
 * First check, if there are any posts at all
 *
-{% endcomment %}
+{% endcomment %}-->
 <!--
 {% unless site.posts == empty %}
 
@@ -34,10 +34,10 @@ format: frontpage
             <p>{{ site.data.language.more_articles }}</p>
             {% include list-posts entries='3' offset='3' %}
         </div>
-    </div> -->
-{% endunless %}
+    </div>
+{% endunless %}-->
 
-
+<!--
 {% comment %}
 *
 * Finally, if there is content, spit it out.
@@ -48,7 +48,7 @@ format: frontpage
     {{ content }}
 </div><!-- /.row -->
 
-
+<!--
 {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title
@@ -71,7 +71,7 @@ format: frontpage
 </div><!-- /.row -->
 
 
-
+<!--
 {% comment %}
 *
 * First check, if there is a call for action-button
@@ -87,6 +87,6 @@ format: frontpage
         <div class="small-12 text-center columns">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-{% endif %}
-{% endcomment %}
+    <!--</div><!-- /.row -->
+<!--{% endif %}
+{% endcomment %}-->

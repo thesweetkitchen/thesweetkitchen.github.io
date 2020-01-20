@@ -15,6 +15,10 @@
       title: Liquid sweetener
       alt: Basically liquid gold
       href: /baking-tests/liquid-sweetener/
+    - src: /assets/img/baking-tests/fat/fat-hp.jpg
+      title: Fat
+      alt: The calories are worth it
+      href: /baking-tests/fat/
   settings:
     height: "'auto'"
     maxHeight: 700
@@ -59,6 +63,21 @@
     - src: /assets/img/baking-tests/liquid-sweetener/texture-liquid-sweetener-cake.jpg
       title:
     - src: /assets/img/baking-tests/liquid-sweetener/moisture-liquid-sweetener-cake.jpg
+      title:
+  settings:
+    height: "'auto'"
+    maxHeight: 700
+- selector: fat_cake_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/img/baking-tests/fat/appearance-fat-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/fat/taste-smell-fat-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/fat/texture-fat-cake.jpg
+      title:
+    - src: /assets/img/baking-tests/fat/moisture-fat-cake.jpg
       title:
   settings:
     height: "'auto'"

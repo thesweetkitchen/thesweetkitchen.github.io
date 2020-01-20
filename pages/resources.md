@@ -10,8 +10,10 @@ header:
 breadcrumb: true
 meta_title: Resources
 ---
+<a href="./flavour_pairing">See flavour pairing</a>
 
 <!--BAKING SCIENCE BOOKS-->
+
 <div class="resources">
   <h2>Books on baking science</h2>
   <ul>
@@ -199,7 +201,6 @@ meta_title: Resources
     </li>
   </ul>
 </div>
-
 
 
 If you have any other helpful resources, please <a href="{{ site.url }}{{ site.baseurl }}/contact/">drop me a note</a>.
